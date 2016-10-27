@@ -19,3 +19,23 @@
 ::-webkit-scrollbar-thumb:horizontal:hover {
     background-color: #C2C2C2;
 }
+
+#logomenu {
+    margin-left: -16%;
+    position: absolute;
+    margin-top: 1%;
+}
+#bs-example-navbar-collapse-1 {
+    margin-left: 12%;
+}
+#posmenu {
+    padding-top: 4.5%;
+}
+
+@media (max-width: 767px) {
+    #logomenu {
+        margin-left: -16%;
+        position: absolute;
+        margin-top: 20%;
+    }
+}

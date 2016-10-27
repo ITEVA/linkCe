@@ -8,7 +8,7 @@ define('DBSA', 'test');
 
 /** @var string */
 $host = is_string($_SERVER["HTTP_HOST"]) ? $_SERVER["HTTP_HOST"] : "" ;
-define('RAIZ', "http://{$host}/siteConnect/");
+define('RAIZ', "http://{$host}/linkCe/");
 
 /**
  * __autoload

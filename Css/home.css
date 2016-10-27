@@ -1,0 +1,168 @@
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*Formatação da div principal*/
+#divmae
+
+{
+    background-color: #FFFFFF ;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+
+
+}
+ /*Formatação das quatro divs após o banner*/
+
+p.textoverde {
+    color:  #1ca587;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.box {
+    width: 20%;
+    margin-top: 0.8%;
+
+
+}
+
+#div04{
+    margin-left: 6.5%;
+}
+#div03{
+    margin-left: 30px;
+}
+#div02{
+    margin-left: 1%;
+}
+#div01 {
+    margin-left: 8%;
+
+}
+
+/*Formatação da div do segundo "Banner" podemos lhe ajudar?*/
+#textoimg {
+    position: absolute;
+    right: calc(67.3% - 3%);
+    top: calc(143.3% - 13%);
+
+}
+.txtimg {
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: 700;
+
+
+}
+#divimg2{
+    margin-top: 13%;
+}
+.txtimg2{
+    font-size: 23px;
+    color: #FFFFFF;
+}
+#botao01 {
+    background-color: #FFFFFF;
+    width: 47%;
+    height: 55px;
+    position: absolute;
+    margin-top: 4.4%;
+
+}
+#txttroca {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 7%;
+
+}
+#iconcad {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 5%;
+
+}
+#botao02 {
+    background-color: #FFFFFF;
+    width: 47%;
+    height: 55px;
+    position: absolute;
+    margin-top: 4.4%;
+    margin-left: 53%;
+}
+#txttroca2 {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 7%;
+
+}
+#iconcad2 {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 5%;
+
+}
+/* formataçaõ da div fale conosco*/
+#falecono {
+    width: 20%;
+    height: 275px;
+    background-color: #2dab6a;
+    position: absolute;
+    margin-top: -15.1%;
+    margin-left: 74%;
+}
+
+#texfale {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #FFFFFF;
+    font-family: Arial;
+}
+#texfale2 {
+    font-size: 14px;
+    margin-top: 4%;
+    margin-left: 10%;
+    color: #FFFFFF;
+    font-family: Arial;
+}
+
+/* formtação dos botoes area cliente e conect já*/
+#botaomenu {
+    width: 7.3%;
+    height: 40px;
+    background-color: #ffffff;
+    z-index: 999;
+    margin-left: 67%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#botaomenu2 {
+    width: 7.3%;
+    height: 40px;
+    background-color: #ffffff;
+    z-index: 999;
+    margin-left: 74.7%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#areacliente {
+    margin-top: 9%;
+    margin-left: 25%;
+    color: #1ca587;
+}
+
+#contrate {
+    margin-top: 8%;
+    margin-left: 25%;
+    color: #1ca587;
+}
+.imgbmenu {
+    margin-top: -3%;
+   margin-left: -18%;
+}

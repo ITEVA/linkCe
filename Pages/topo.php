@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Connect já</title>
-        <link rel="shortcut icon" href="Images/favicon.png" type="image/png">
-        
+        <title>LinkCE</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Images/7162icontitle.ico">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
@@ -28,9 +27,11 @@
         <link rel="stylesheet" href="Css/style.css">
         <link rel="stylesheet" href="Css/slider.css">
         <link rel="stylesheet" href="Css/topo.css">
+
         <!-- Latest compiled and minified JavaScript -->
         <script src="JS/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <?php echo (file_exists("Css/{$url[0]}.css")) ? "<link rel=\"stylesheet\" href=\"Css/{$url[0]}.css\">" : ""; ?>
+
     </head>
     <body>
         <nav class="navbar navbar-default" style="margin-bottom:0px;">
@@ -46,8 +47,9 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
+                <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  >
+                    <img src="Images/logomenu.png" id="logomenu">
+                    <ul class="nav navbar-nav" id="posmenu">
                         <li><a href="http://connectja.com.br/sac">Área do cliente</a></li>
                         <li><a href="home">Início</a></li>
                         <li><a href="aempresa">A empresa</a></li>
