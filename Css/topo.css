@@ -39,3 +39,11 @@
         margin-top: 20%;
     }
 }
+
+@media all and (max-width: 1820px){
+    #logomenu {
+        margin-left: -12%;
+        position: absolute;
+        margin-top: 7%;
+    }
+}

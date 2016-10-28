@@ -166,3 +166,11 @@ p.textoverde {
     margin-top: -3%;
    margin-left: -18%;
 }
+
+@media all and (max-width: 1820px){
+    #logomenu {
+        margin-left: -12%;
+        position: absolute;
+        margin-top: 7%;
+    }
+}
