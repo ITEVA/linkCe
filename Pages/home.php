@@ -1,5 +1,6 @@
 <!--<link rel="stylesheet" href="../Css/home.css">
 <link rel="stylesheet" href="Css/topo.css">-->
+<script type="text/javascript" src="JS/scrollReveal.js"></script>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
@@ -9,61 +10,108 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+    <!-- Banner  -->
     <div class="carousel-inner" role="listbox">
-        <!--<div id="botaomenu">
-            <p id ="areacliente">
-                <img src="Images/imgbotmenu.png" class="imgbmenu">
-                Área do cliente
-            </p>
+        <div class="item active">
+            <div class="row-fluid">
+                <div class="animated fadeInDownBig txtBanner col-lg-offset-6 col-lg-6">
+                    <img src="Images/banner/bandaLarga.jpg">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="animated fadeInLeftBig txtBanner col-lg-offset-6 col-lg-2 margemTop">
+                    <img src="Images/banner/oferta.png">
+                </div>
+                <div class="animated fadeInUpBig txtBanner col-lg-offset-8 col-lg-3 margemTop">
+                    <img src="Images/banner/mega.png">
+                </div>
+            </div>
+            <img src="Images/banner1.jpg" alt="Chania" width="100%">
 
+            </div>
+            <div class="item">
+            <img src="Images/banner1.jpg" alt="Chania" width="100%">
+            </div>
+
+            <div class="item">
+            <img src="Images/banner1.jpg" alt="Flower" width="100%">
         </div>
+    </div>
+    <div class="triangle-down"></div>
+</div>
 
-        <div id ="botaomenu2">
-            <p id="contrate">
-                <img src="Images/imgbotmenu2.png" class="imgbmenu">
-                Contrate aqui
-            </p>
+<!-- Por que ser nosso cliente -->
 
-        </div>-->
-        <!-- Banner
-        ==========================================-->
-        <!--       <div class="item">
-                  <img src="Images/banner1.jpg" alt="">
-                  <div class="txtBanner txt1 fadeInUp animated">
-                      <h1 class="banner">Lorem <span class="destaque">ipsum</span><br> dolor sit amet, pede.</h1>
-                      <p class="lead banner">Lorem ipsum dolor sit amet, pede diam mauris eget. Posuere eget pulvinar risus sed elit, recusandae eu volutpat</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <img src="Images/banner1.jpg" alt="">
-                  <div class="txtBanner txt2">
-                      <h1 class="banner">Lorem <span class="destaque">ipsum</span><br> dolor sit amet, pede.</h1>
-                      <p class="lead banner">Lorem ipsum dolor sit amet, pede diam mauris eget. Posuere eget pulvinar risus sed elit, recusandae eu volutpat</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <img src="Images/banner1.jpg" alt="">
-                  <div class="txtBanner txt3">
-                      <h1 class="banner">Lorem <span class="destaque">ipsum</span><br> dolor sit amet, pede.</h1>
-                      <p class="lead banner">Lorem ipsum dolor sit amet, pede diam mauris eget. Posuere eget pulvinar risus sed elit, recusandae eu volutpat</p>
-                  </div>
-              </div>-->
+<div id="nossoCliente" class="container">
+    <div id="txtNossoCliente" class="col-lg-offset-2 col-lg-4">
+        <h1>POR QUE SER NOSSO CLIENTE?</h1>
 
-
-     <div class="item active">
-          <img src="Images/banner1.jpg" alt="Chania" width="100%">
-      </div>
-
-      <div class="item">
-          <img src="Images/banner1.jpg" alt="Chania" width="100%">
-      </div>
-
-      <div class="item">
-          <img src="Images/banner1.jpg" alt="Flower" width="100%">
-      </div>
-  </div>
+        <p>Com a tecnologia de rádio digital, oferecemos serviços de qualidade com agilidade e baixo custo.</p>
+        <p>Oferecemos a empresas de pequeno, médio e grande porte, soluções de TI com atendimento especializado e dedicado.</p>
+        <p>Trabalhamos para manter sempre um serviço estável e contíno com 100% de conexão em up-time, o que garante mais estabilidade e velocidade ao nosso serviço de banda.</p>
+    </div>
+    <div class="col-lg-6" style="padding: 0px;">
+        <img src="Images/nossoCliente.jpg" style="width: 100%;">
+    </div>
+    <div class="triangle-down"></div>
 
 </div>
+
+
+<!-- Planos de Banda Larga -->
+
+<div id="planosHome" class="container">
+    <div id="txtPlanosHome" class="col-lg-12">
+        <h2>Planos de Banda Larga em destaque</h2>
+        <p>Selecionamos nossos planos mais assinados, assim você <br>pode fazer parte da LinkCE.</p>
+    </div>
+    <div id="planosDestaque" class="col-lg-offset-2 col-lg-8">
+        <div id="" class="col-lg-4">
+            <div class="verde">
+                <h2>15 Mega</h2>
+                <p>Residencial</p>
+            </div>
+            <div class="txtPreco">
+                <h3>Ilimitada</h3>
+                <hr>
+                <h3>R$ 75,90</h3>
+                <hr>
+                <h3>Consulte Instalação</h3>
+            </div>
+            <button id="btnPlanoHome">Assine Já</button>
+        </div>
+        <div id="" class="col-lg-4">
+            <div class="verde">
+                <h2>35 Mega</h2>
+                <p>Residencial</p>
+            </div>
+            <div class="txtPreco">
+                <h3>Ilimitada</h3>
+                <hr>
+                <h3>R$ 99,90</h3>
+                <hr>
+                <h3>Consulte Instalação</h3>
+            </div>
+            <button id="btnPlanoHome">Assine Já</button>
+        </div>
+        <div id="" class="col-lg-4">
+            <div class="verde">
+                <h2>50 Mega</h2>
+                <p>Residencial</p>
+            </div>
+            <div class="txtPreco">
+                <h3>Ilimitada</h3>
+                <hr>
+                <h3>R$ 139,90</h3>
+                <hr>
+                <h3>Consulte Instalação</h3>
+            </div>
+            <button id="btnPlanoHome">Assine Já</button>
+        </div>
+    </div>
+</div>
+
+
+
 
 

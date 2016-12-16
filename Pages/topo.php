@@ -15,6 +15,7 @@
         <script src="JS/bootstrap.min.js"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
+        <!--<script type="text/javascript" src="JS/elementScroll.js"></script>-->
 
         
         <!-- Latest compiled and minified CSS -->
@@ -70,3 +71,12 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+
+
+
+
+
+
+
+
+

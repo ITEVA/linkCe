@@ -5,12 +5,12 @@
     <nav id="menuRodape">
         <img src="Images/logotipoRodapé.png" class="imgrod" />
         <ul id="mrod">
-            <li><a href="home">Início</a></li>
-            <li><a href="aempresa">A empresa</a></li>
-            <li><a href="internet">Internet</a></li>
-            <li><a href="cobertura">Cobertura</a></li>
-            <li><a href="assinaturas">Assinaturas</a></li>
-            <li><a href="contato">Contato</a></li>
+            <li><a href="home">INÍCIO</a></li>
+            <li><a href="aempresa">A EMPRESA</a></li>
+            <li><a href="internet">PLANOS</a></li>
+            <li><a href="cobertura">CORPORATIVO</a></li>
+            <li><a href="assinaturas">ÁREA DE COBERTURA</a></li>
+            <li><a href="contato">CONTATOS</a></li>
         </ul>
     </nav>
     </div>
