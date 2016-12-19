@@ -7,8 +7,8 @@
         <ul id="mrod">
             <li><a href="home">INÍCIO</a></li>
             <li><a href="aempresa">A EMPRESA</a></li>
-            <li><a href="internet">PLANOS</a></li>
-            <li><a href="cobertura">CORPORATIVO</a></li>
+            <li><a href="planos">PLANOS</a></li>
+            <li><a href="corporativo">CORPORATIVO</a></li>
             <li><a href="assinaturas">ÁREA DE COBERTURA</a></li>
             <li><a href="contato">CONTATOS</a></li>
         </ul>

@@ -1,188 +1,90 @@
-.navbar-default {
-    border: 0;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 9;
-    background-color: transparent;
-    margin: 0 auto;
-    width: 100%;
+/* TXT */
+
+h1 {
+    font-size: 60px;
+    color: #00a39b;
+    font-weight: bold;
 }
-.navbar-default .navbar-brand {
-    color: #ecf0f1;
+
+h2 {
+    font-size: 40px;
+    color: #00a39b;
+    font-weight: bold;
+    text-align: center;
 }
-.container-fluid{
-    margin: 0 auto;
-    max-width: 1000px;
+
+p {
+    font-size: 20px;
+    color: #282828;
+    text-align: justify;
+    padding: 20px 0 0 0;
 }
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+
+/********************* PLANOS *********************/
+
+.verde {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10vh;
+    width: 23vw;
+    background-color: #2fac69;
     color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: auto;
 }
-.navbar-default .navbar-text {
-    color: #ecf0f1;
+
+.verde h2 {
+    color: #fff;
+    padding-top: 10px;
 }
-.navbar-default .navbar-nav > li > a {
-    height: 35px;
-    padding-top: 8px;
-    border-right: 3px solid #FFF;
-    color: #ecf0f1;
+
+.verde p {
+    color: #fff;
+    padding-top: 0px;
+    text-align: center;
 }
-.navbar-default .navbar-nav > li:last-child > a{
+
+hr {
+    border: 2px solid #cdcdcd;
+}
+
+.btnPlanos {
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    background-color: #18a394;
     border: none;
-}
-.navbar-default .navbar-nav > li:first-child > a{
-    display: none;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #fff;
-    background-color: #2DAB6B;
-}
-.navbar-default .navbar-toggle {
-    border-color: #fff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:hover {
-    background-color: #2DAB6B;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ecf0f1;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    border-color: #fff;
-}
-.navbar-default .navbar-link {
-    color: #fff;
-}
-.navbar-default .navbar-link:hover {
+    font-size: 30px;
     color: #fff;
 }
 
-#areaSuperior{
-    max-width: 1000px;
-    padding: 15px;
-    margin: 0 auto;
-}
-
-#btnAreaCliente{
+.quadroPlano {
+    display: block;
+    position: relative;
+    width: 23vw;
+    margin: auto;
     margin-top: 40px;
-    float: right;
+    margin-bottom: 40px;
 }
 
-#menuRodape{
-    vertical-align: middle;
-    max-width: 1000px;
-    margin: 0 auto;
+.quadroPlano  h3 {
+    font-size: 30px;
 }
 
-#menuRodape ul {
-    padding-top:30px;
-    margin:0;
-    list-style:none;
+.quadroPlano hr {
+    width: 20vw;
 }
 
-#menuRodape ul li { display: inline; }
-
-#menuRodape ul li a {
-    padding: 2px 20px;
-    display: inline-block;
-
-    /* visual do link */
-    color: #333;
-    text-decoration: none;
-    border-left:3px solid #2daa6a;
-}
-
-#menuRodape img{
-    float: left;
-    display: inline-block;
-    padding: 10px;
-}
-
-#direitos{
-    clear: left;
-    background-color: #00285c;
-    padding: 10px;
-    color: white;
-}
-
-#direitos div{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-#btn_areaCliente{
-    cursor:pointer;
-}
-
-#btninfor1{
-    cursor:pointer;
-    margin-top: 60px;
-}
-
-#btninfor2{
-    cursor:pointer;
-    margin-top: 59px;
-}
-
-#btninfor3{
-    cursor:pointer;
-    margin-top: 1px;
-}
-
-#btninfor4{
-    cursor:pointer;
-    margin-top: 27px;
+.bgGray {
+    display: block;
+    position: relative;
+    width: 23vw;
+    background-color: #f0f0f0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 2vw;
 }
 
 
-@media (max-width: 767px) {
-    #logo{
-        position: relative;
-        width: 90%;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    div.boxInformacao{
-        width: 60%;
-    }
-
-    #menuRodape{
-        display: none;
-    }
-    .navbar-default .navbar-nav > li:first-child > a{
-        display: block;
-    }
-    .navbar-default .navbar-nav > li > a{
-        border: none;
-    }
-    .navbar-default .navbar-nav > li:first-child > a{
-        display: block;
-    }
-    #btnAreaCliente{
-        display: none;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #ecf0f1;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #11A596;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #11A596;
-        background-color: #2DAB6B;
-    }
-}
-
-@media (max-width: 767px) {
-    #logomenu {
-        margin-left: -16%;
-        position: absolute;
-        margin-top: 20%;
-    }
-}
+/********************* @MEDIAS *********************/

@@ -110,66 +110,7 @@ div#menu {
     color: #ffffff;
 }
 
-
-/********** HOME **********/
-
-.txtBanner {
-    position: absolute;
-    left: 0;
-    margin-top: 100px;
-}
-
-.margemTop {
-    margin-top:260px;
-    animation-duration: 6s;
-}
-
-#nossoCliente {
-    width: 99vw;
-    background: #f4f4f4;
-    padding: 0px;
-}
-
-.carousel-indicators {
-    left: 50.6%;
-}
-
-.triangle-down {
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 20px solid #85c6ad;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 0;
-    right:0;
-    margin: auto;
-    z-index: 9999;
-}
-
-#txtNossoCliente {
-    padding: 50px 0;
-}
-
-h1 {
-    font-size: 60px;
-    color: #00a39b;
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 40px;
-    color: #00a39b;
-    font-weight: bold;
-}
-
-p {
-    font-size: 20px;
-    color: #282828;
-    text-align: justify;
-    padding: 20px 0 0 0;
-}
-
+/* Planos */
 
 #planosHome {
     display: block;
@@ -193,50 +134,18 @@ p {
     margin-top: 30px;
 }
 
-.verde {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 10vh;
-    width: 20vw;
-    background-color: #2fac69;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-}
 
-.verde h2 {
-    color: #fff;
-    padding-top: 10px;
-}
+/* CORPORATIVO */
 
-.verde p {
-    color: #fff;
-    padding-top: 0px;
-    text-align: center;
-}
-
-.txtPreco {
-    width: 18vw;
+#planosCorporativo {
+    display: block;
+    position: relative;
+    width: 50vw;
+    height: auto;
     margin: auto;
 }
 
-.txtPreco  h3 {
-    font-size: 30px;
-}
 
-hr {
-    border: 2px solid #cdcdcd;
-}
-
-#btnPlanoHome {
-    width: 300px;
-    height: 80px;
-    margin-top: 30px;
-    background-color: #18a394;
-    border: none;
-    font-size: 30px;
-    color: #fff;
-}
 
 /********** RODAPÉ **********/
 

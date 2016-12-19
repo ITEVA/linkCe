@@ -65,48 +65,50 @@
         <h2>Planos de Banda Larga em destaque</h2>
         <p>Selecionamos nossos planos mais assinados, assim você <br>pode fazer parte da LinkCE.</p>
     </div>
-    <div id="planosDestaque" class="col-lg-offset-2 col-lg-8">
+    <div id="planosDestaque" class="col-lg-offset-1 col-lg-10">
         <div id="" class="col-lg-4">
-            <div class="verde">
-                <h2>15 Mega</h2>
-                <p>Residencial</p>
-            </div>
-            <div class="txtPreco">
+            <div class="quadroPlano">
+                <div class="verde">
+                    <h2>15 Mega</h2>
+                    <p>Residencial</p>
+                </div>
                 <h3>Ilimitada</h3>
                 <hr>
                 <h3>R$ 75,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
+                <button class="btnPlanos">Assine Já</button>
             </div>
-            <button id="btnPlanoHome">Assine Já</button>
         </div>
+
         <div id="" class="col-lg-4">
-            <div class="verde">
-                <h2>35 Mega</h2>
-                <p>Residencial</p>
-            </div>
-            <div class="txtPreco">
+            <div class="quadroPlano">
+                <div class="verde">
+                    <h2>35 Mega</h2>
+                    <p>Residencial</p>
+                </div>
                 <h3>Ilimitada</h3>
                 <hr>
                 <h3>R$ 99,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
+                <button class="btnPlanos">Assine Já</button>
             </div>
-            <button id="btnPlanoHome">Assine Já</button>
         </div>
+
         <div id="" class="col-lg-4">
-            <div class="verde">
-                <h2>50 Mega</h2>
-                <p>Residencial</p>
-            </div>
-            <div class="txtPreco">
+            <div class="quadroPlano">
+                <div class="verde">
+                    <h2>50 Mega</h2>
+                    <p>Residencial</p>
+                </div>
                 <h3>Ilimitada</h3>
                 <hr>
                 <h3>R$ 139,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
+                <button class="btnPlanos">Assine Já</button>
             </div>
-            <button id="btnPlanoHome">Assine Já</button>
         </div>
     </div>
 </div>

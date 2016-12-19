@@ -15,7 +15,6 @@
         <script src="JS/bootstrap.min.js"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
-        <!--<script type="text/javascript" src="JS/elementScroll.js"></script>-->
 
         
         <!-- Latest compiled and minified CSS -->
@@ -26,12 +25,12 @@
         <link rel="stylesheet" href="Css/carrousel.css">
         <link rel="stylesheet" href="Css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
         <link rel="stylesheet" href="Css/slider.css">
-        <link rel="stylesheet" href="Css/topo.css">
         <link rel="stylesheet" href="Css/animate.css">
-        <link rel="stylesheet" href="Css/animatesTxts.css">
         <link rel="stylesheet" href="Font/css/font-awesome.min.css">
-        <!--<link rel="stylesheet" href="Css/style.css">
-        -->
+
+        <link rel="stylesheet" href="Css/topo.css">
+        <link rel="stylesheet" href="Css/style.css">
+        <link rel="stylesheet" href="Css/home.css">
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="JS/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -63,8 +62,8 @@
                         <!--<li><a href="#">Área do cliente</a></li>-->
                         <li><a href="home">INÍCIO</a></li>
                         <li><a href="aempresa">A EMPRESA</a></li>
-                        <li><a href="internet">PLANOS</a></li>
-                        <li><a href="cobertura">CORPORATIVO</a></li>
+                        <li><a href="planos">PLANOS</a></li>
+                        <li><a href="corporativo">CORPORATIVO</a></li>
                         <li><a href="assinaturas">ÁREA DE COBERTURA</a></li>
                         <li><a href="contato">CONTATOS</a></li>
                     </ul>

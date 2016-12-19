@@ -1,176 +1,63 @@
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+/********** HOME **********/
+
+.txtBanner {
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
 }
 
-/*Formatação da div principal*/
-#divmae
+.margemTop {
+    margin-top:260px;
+    animation-duration: 6s;
+}
 
-{
-    background-color: #FFFFFF ;
+#nossoCliente {
+    width: 99vw;
+    background: #f4f4f4;
+    padding: 0px;
+}
+
+.carousel-indicators {
+    left: 50.6%;
+}
+
+.triangle-down {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #85c6ad;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right:0;
+    margin: auto;
+    z-index: 9999;
+}
+
+#txtNossoCliente {
+    padding: 50px 0;
+}
+
+/* Planos */
+
+#planosHome {
     display: block;
     position: relative;
-    float: none;
-    margin: 0 auto;
-
-
-}
- /*Formatação das quatro divs após o banner*/
-
-p.textoverde {
-    color:  #1ca587;
-    text-transform: uppercase;
-    font-size: 28px;
-}
-.box {
-    width: 20%;
-    margin-top: 0.8%;
-
-
+    width: 99vw;
+    /*height: auto;*/
+    height: 75vh;
+    padding: 0px;
+    text-align: center
 }
 
-#div04{
-    margin-left: 6.5%;
-}
-#div03{
-    margin-left: 30px;
-}
-#div02{
-    margin-left: 1%;
-}
-#div01 {
-    margin-left: 8%;
-
+#txtPlanosHome{
+    text-align: center;
 }
 
-/*Formatação da div do segundo "Banner" podemos lhe ajudar?*/
-#textoimg {
-    position: absolute;
-    right: calc(67.3% - 3%);
-    top: calc(143.3% - 13%);
-
-}
-.txtimg {
-    font-size: 80px;
-    color: #FFFFFF;
-    font-weight: 700;
-
-
-}
-#divimg2{
-    margin-top: 13%;
-}
-.txtimg2{
-    font-size: 23px;
-    color: #FFFFFF;
-}
-#botao01 {
-    background-color: #FFFFFF;
-    width: 47%;
-    height: 55px;
-    position: absolute;
-    margin-top: 4.4%;
-
-}
-#txttroca {
-    position: absolute;
-    margin-left: 19%;
-    margin-top: 7%;
-
-}
-#iconcad {
-    position: absolute;
-    margin-top: 3.5%;
-    margin-left: 5%;
-
-}
-#botao02 {
-    background-color: #FFFFFF;
-    width: 47%;
-    height: 55px;
-    position: absolute;
-    margin-top: 4.4%;
-    margin-left: 53%;
-}
-#txttroca2 {
-    position: absolute;
-    margin-left: 19%;
-    margin-top: 7%;
-
-}
-#iconcad2 {
-    position: absolute;
-    margin-top: 3.5%;
-    margin-left: 5%;
-
-}
-/* formataçaõ da div fale conosco*/
-#falecono {
-    width: 20%;
-    height: 275px;
-    background-color: #2dab6a;
-    position: absolute;
-    margin-top: -15.1%;
-    margin-left: 74%;
+#txtPlanosHome p{
+    text-align: center;
 }
 
-#texfale {
-    font-size: 30px;
-    margin-top: 10%;
-    margin-left: 10%;
-    color: #FFFFFF;
-    font-family: Arial;
-}
-#texfale2 {
-    font-size: 14px;
-    margin-top: 4%;
-    margin-left: 10%;
-    color: #FFFFFF;
-    font-family: Arial;
-}
-
-/* formtação dos botoes area cliente e conect já*/
-#botaomenu {
-    width: 7.3%;
-    height: 40px;
-    background-color: #ffffff;
-    z-index: 999;
-    margin-left: 67%;
-    position: absolute;
-    margin-top: 2%;
-}
-
-#botaomenu2 {
-    width: 7.3%;
-    height: 40px;
-    background-color: #ffffff;
-    z-index: 999;
-    margin-left: 74.7%;
-    position: absolute;
-    margin-top: 2%;
-}
-
-#areacliente {
-    margin-top: 9%;
-    margin-left: 25%;
-    color: #1ca587;
-}
-
-#contrate {
-    margin-top: 8%;
-    margin-left: 25%;
-    color: #1ca587;
-}
-.imgbmenu {
-    margin-top: -3%;
-   margin-left: -18%;
-}
-
-@media all and (max-width: 1820px){
-    #logomenu {
-        margin-left: -12%;
-        position: absolute;
-        margin-top: 7%;
-    }
+#planosDestaque {
+    margin-top: 30px;
 }
