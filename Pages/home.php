@@ -65,10 +65,10 @@
         <h2>Planos de Banda Larga em destaque</h2>
         <p>Selecionamos nossos planos mais assinados, assim você <br>pode fazer parte da LinkCE.</p>
     </div>
-    <div id="planosDestaque" class="col-lg-offset-1 col-lg-10">
+    <div id="planosDestaque" class="col-lg-offset-2 col-lg-8">
         <div id="" class="col-lg-4">
-            <div class="quadroPlano">
-                <div class="verde">
+            <div class="quadroPlano quadroG">
+                <div class="verde quadroG">
                     <h2>15 Mega</h2>
                     <p>Residencial</p>
                 </div>
@@ -82,8 +82,8 @@
         </div>
 
         <div id="" class="col-lg-4">
-            <div class="quadroPlano">
-                <div class="verde">
+            <div class="quadroPlano quadroG">
+                <div class="verde quadroG">
                     <h2>35 Mega</h2>
                     <p>Residencial</p>
                 </div>
@@ -97,8 +97,8 @@
         </div>
 
         <div id="" class="col-lg-4">
-            <div class="quadroPlano">
-                <div class="verde">
+            <div class="quadroPlano quadroG">
+                <div class="verde quadroG">
                     <h2>50 Mega</h2>
                     <p>Residencial</p>
                 </div>

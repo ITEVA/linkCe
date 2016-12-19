@@ -2,8 +2,8 @@
 <div id="planosCorporativo" style="text-align: center;">
     <div class="row">
         <div class="col-lg-6">
-            <div class="quadroPlano bgGray">
-                <div class="verde">
+            <div class="quadroPlano bgGray quadroG">
+                <div class="verde quadroG">
                     <h2>5 Mega</h2>
                     <p>Corporativo</p>
                 </div>
@@ -17,8 +17,8 @@
             </div>
         </div>
         <div class="col-lg-6">
-            <div class="quadroPlano bgGray">
-                <div class="verde">
+            <div class="quadroPlano bgGray quadroG">
+                <div class="verde quadroG">
                     <h2>10 Mega</h2>
                     <p>Corporativo</p>
                 </div>
@@ -35,8 +35,8 @@
 
     <div class="row">
         <div class="col-lg-6">
-            <div class="quadroPlano bgGray">
-                <div class="verde">
+            <div class="quadroPlano bgGray quadroG">
+                <div class="verde quadroG">
                     <h2>20 Mega</h2>
                     <p>Corporativo</p>
                 </div>
@@ -50,8 +50,8 @@
             </div>
         </div>
         <div class="col-lg-6">
-            <div class="quadroPlano bgGray">
-                <div class="verde">
+            <div class="quadroPlano bgGray quadroG">
+                <div class="verde quadroG">
                     <h2>30 Mega</h2>
                     <p>Corporativo</p>
                 </div>

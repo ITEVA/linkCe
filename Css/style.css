@@ -26,7 +26,6 @@ p {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 10vh;
-    width: 23vw;
     background-color: #2fac69;
     color: #fff;
     padding: 0;
@@ -62,7 +61,6 @@ hr {
 .quadroPlano {
     display: block;
     position: relative;
-    width: 23vw;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -72,18 +70,29 @@ hr {
     font-size: 30px;
 }
 
-.quadroPlano hr {
-    width: 20vw;
+.quadroP hr {
+    width: 16vw;
+}
+
+quadroG hr{
+  width: 18vw;
 }
 
 .bgGray {
     display: block;
     position: relative;
-    width: 23vw;
     background-color: #f0f0f0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding-bottom: 2vw;
+}
+
+.quadroG{
+    width: 20vw;
+}
+
+.quadroP{
+    width: 18vw;
 }
 
 
