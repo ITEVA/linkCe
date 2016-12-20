@@ -64,8 +64,8 @@
                         <li><a href="aempresa">A EMPRESA</a></li>
                         <li><a href="planos">PLANOS</a></li>
                         <li><a href="corporativo">CORPORATIVO</a></li>
-                        <li><a href="assinaturas">ÁREA DE COBERTURA</a></li>
-                        <li><a href="contato">CONTATOS</a></li>
+                        <li><a href="cobertura">ÁREA DE COBERTURA</a></li>
+                        <li><a href="contatos">CONTATOS</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

@@ -13,6 +13,7 @@
     <!-- Banner  -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
+            <div>
             <div class="row-fluid">
                 <div class="animated fadeInDownBig txtBanner col-lg-offset-6 col-lg-6">
                     <img src="Images/banner/bandaLarga.jpg">
@@ -26,16 +27,19 @@
                     <img src="Images/banner/mega.png">
                 </div>
             </div>
+            </div>
+
             <img src="Images/banner1.jpg" alt="Chania" width="100%">
 
             </div>
+        <!--
             <div class="item">
             <img src="Images/banner1.jpg" alt="Chania" width="100%">
             </div>
 
             <div class="item">
             <img src="Images/banner1.jpg" alt="Flower" width="100%">
-        </div>
+        </div>-->
     </div>
     <div class="triangle-down"></div>
 </div>

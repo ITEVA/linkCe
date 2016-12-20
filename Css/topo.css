@@ -51,8 +51,10 @@ div#logoMenu #areaCliente {
 }
 
 div#logoMenu #areaCliente button {
-    margin-top: 20%;
+    margin-top: 3.37vh;
+   /* width: 9.9vw;*/
     width: 190px;
+
     border: 1px solid #00a39b;
     color: #00a39b;
 }
