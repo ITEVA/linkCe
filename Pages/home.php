@@ -12,24 +12,24 @@
 
     <!-- Banner  -->
     <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        <div id="banner1" class="item active">
             <div>
             <div class="row-fluid">
-                <div class="animated fadeInDownBig txtBanner col-lg-offset-6 col-lg-6">
+                <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
                     <img src="Images/banner/bandaLarga.jpg">
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="animated fadeInLeftBig txtBanner col-lg-offset-6 col-lg-2 margemTop">
+                <div id="oferta" class="animated fadeInLeftBig txtBanner margemTop">
                     <img src="Images/banner/oferta.png">
                 </div>
-                <div class="animated fadeInUpBig txtBanner col-lg-offset-8 col-lg-3 margemTop">
+                <div id="mega25" class="animated fadeInUpBig txtBanner margemTop">
                     <img src="Images/banner/mega.png">
                 </div>
             </div>
             </div>
 
-            <img src="Images/banner1.jpg" alt="Chania" width="100%">
+            <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
 
             </div>
         <!--

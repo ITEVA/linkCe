@@ -41,7 +41,7 @@
         <div id="logoMenu">
             <img src="Images/logoColorida.png" id="logomenu">
             <div id="areaCliente">
-                <button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i>ÁREA DO CLIENTE</button>
+                <button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i><spam>ÁREA DO CLIENTE</spam></button>
             </div>
          </div>
         <nav class="navbar navbar-default" style="margin-bottom:0px;">

@@ -261,6 +261,14 @@ div#menu {
 }
 */
 
+.container-fluid>.navbar-header {
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-toggle {
+
+}
+
 /********** @MEDIAS **********/
 @media all and (max-width: 1061px) {
     div#logoMenu {
@@ -288,5 +296,24 @@ div#menu {
     }
     .nav>li>a {
         padding: 10px 12px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    div#logoMenu #areaCliente button {
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    div#logoMenu #areaCliente button spam {
+        display: none;
+    }
+
+    div#logoMenu #areaCliente button i {
+        padding-right: 0px;
+    }
+
+    div#logoMenu img {
+        width: 51vw;
     }
 }

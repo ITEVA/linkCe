@@ -3,11 +3,11 @@
 .txtBanner {
     position: absolute;
     left: 0;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .margemTop {
-    margin-top:260px;
+    margin-top: 18%;
 }
 
 
@@ -61,4 +61,68 @@
 
 #planosDestaque {
     margin-top: 30px;
+}
+
+/* Texto do Banner */
+#bandaLarga {
+    width: 35.4166%;
+    margin-left: 50%;
+}
+
+#bandaLarga img {
+    width: 100%;
+}
+
+#oferta {
+    width: 17%;
+    margin-left: 50%;
+}
+
+#oferta img {
+    width: 100%;
+}
+
+#mega25 {
+    width: 17%;
+    margin-left: 68%;
+}
+
+#mega25 img {
+    width: 100%;
+}
+
+
+/********** @MEDIAS **********/
+
+@media all and (max-width: 500px) {
+    .carousel-inner #banner1 {
+        height: 300px;
+        background-color: #85c6ad;
+    }
+
+    .carousel-inner #banner1 #imgBanner1 {
+        display: none;
+    }
+
+    #bandaLarga {
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    .txtBanner {
+        right: 0;
+    }
+
+    #oferta {
+        width: 39%;
+        margin-left: 10%;
+        margin-top: 30%;
+    }
+
+    #mega25 {
+        width: 38%;
+        margin-left: 51%;
+        margin-top: 30%;
+    }
 }
