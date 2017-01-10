@@ -94,6 +94,7 @@ div#menu {
 
 #bs-example-navbar-collapse-1 {
     padding: 0px;
+    border: none;
 }
 
 #posmenu {
@@ -296,6 +297,12 @@ div#menu {
     }
     .nav>li>a {
         padding: 10px 12px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #posmenu {
+        width: 100%;
     }
 }
 

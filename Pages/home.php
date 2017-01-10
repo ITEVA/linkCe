@@ -13,7 +13,6 @@
     <!-- Banner  -->
     <div class="carousel-inner" role="listbox">
         <div id="banner1" class="item active">
-            <div>
             <div class="row-fluid">
                 <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
                     <img src="Images/banner/bandaLarga.jpg">
@@ -27,19 +26,45 @@
                     <img src="Images/banner/mega.png">
                 </div>
             </div>
-            </div>
-
             <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
+        </div>
 
+        <div id="banner1" class="item">
+            <div class="row-fluid">
+                <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
+                    <img src="Images/banner/bandaLarga.jpg">
+                </div>
             </div>
-        <!--
-            <div class="item">
-            <img src="Images/banner1.jpg" alt="Chania" width="100%">
+            <div class="row-fluid">
+                <div id="oferta" class="animated fadeInLeftBig txtBanner margemTop">
+                    <img src="Images/banner/oferta.png">
+                </div>
+                <div id="mega25" class="animated fadeInUpBig txtBanner margemTop">
+                    <img src="Images/banner/mega.png">
+                </div>
             </div>
+            <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
+        </div>
 
-            <div class="item">
-            <img src="Images/banner1.jpg" alt="Flower" width="100%">
-        </div>-->
+        <div id="banner1" class="item">
+            <div class="row-fluid">
+                <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
+                    <img src="Images/banner/bandaLarga.jpg">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div id="oferta" class="animated fadeInLeftBig txtBanner margemTop">
+                    <img src="Images/banner/oferta.png">
+                </div>
+                <div id="mega25" class="animated fadeInUpBig txtBanner margemTop">
+                    <img src="Images/banner/mega.png">
+                </div>
+            </div>
+            <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
+        </div>
+
+
+
     </div>
     <div class="triangle-down"></div>
 </div>
@@ -47,17 +72,17 @@
 <!-- Por que ser nosso cliente -->
 
 <div id="nossoCliente" class="container">
-    <div id="txtNossoCliente" class="col-lg-offset-2 col-lg-4">
+    <div id="txtNossoCliente">
         <h1>POR QUE SER NOSSO CLIENTE?</h1>
 
         <p>Com a tecnologia de rádio digital, oferecemos serviços de qualidade com agilidade e baixo custo.</p>
         <p>Oferecemos a empresas de pequeno, médio e grande porte, soluções de TI com atendimento especializado e dedicado.</p>
         <p>Trabalhamos para manter sempre um serviço estável e contíno com 100% de conexão em up-time, o que garante mais estabilidade e velocidade ao nosso serviço de banda.</p>
     </div>
-    <div class="col-lg-6" style="padding: 0px;">
-        <img src="Images/nossoCliente.jpg" style="width: 100%;">
+    <div id="imgNossoCliente">
+        <img src="Images/nossoCliente.png" style="width: 100%;">
     </div>
-    <div class="triangle-down"></div>
+    <div id="setaNossoCliente" class="triangle-down"></div>
 
 </div>
 

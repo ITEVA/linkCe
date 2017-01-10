@@ -14,7 +14,8 @@
 
 #nossoCliente {
     width: 99vw;
-    background: #f4f4f4;
+    background: #fbfbfb;
+    background-image: url("../Images/bgIcon.png");
     padding: 0px;
 }
 
@@ -36,7 +37,22 @@
 }
 
 #txtNossoCliente {
-    padding: 50px 0;
+    padding: 20px;
+    display: inline-block;
+    width: 40%;
+    margin-left: 10%;
+    vertical-align: top;
+}
+
+#imgNossoCliente {
+    display: inline-block;
+    width: 45%;
+    padding: 0px;
+    vertical-align: bottom;
+}
+
+#setaNossoCliente {
+    border-top-color: #f4f4f4;
 }
 
 /* Planos */
@@ -94,6 +110,60 @@
 
 /********** @MEDIAS **********/
 
+@media all and (max-width: 1300px) {
+    #txtNossoCliente {
+        padding-right: 0px;
+    }
+
+    #txtNossoCliente h1 {
+        font-size: 50px;
+    }
+
+    #imgNossoCliente {
+        width: 49%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #txtNossoCliente h1 {
+        width: 220%;
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #txtNossoCliente {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    #txtNossoCliente h1 {
+        width: 225%;
+        font-size: 40px;
+    }
+
+    #txtNossoCliente p {
+        padding: 10px 0 0 0;
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #txtNossoCliente {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    #txtNossoCliente h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    #imgNossoCliente {
+        display: none;
+    }
+}
+
 @media all and (max-width: 500px) {
     .carousel-inner #banner1 {
         height: 300px;
@@ -125,4 +195,43 @@
         margin-left: 51%;
         margin-top: 30%;
     }
+
+    #txtNossoCliente h1 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .carousel-inner #banner1 {
+        height: 250px;
+    }
+
+    #imgNossoCliente {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .carousel-inner #banner1 {
+        height: 220px;
+    }
+
+    #txtNossoCliente p {
+          font-size: 18px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .carousel-inner #banner1 {
+        height: 200px;
+    }
+
+    #txtNossoCliente h1 {
+        font-size: 30px;
+    }
+
+    #txtNossoCliente {
+        font-size: 16px;
+    }
+
 }
