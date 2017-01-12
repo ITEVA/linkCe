@@ -21,4 +21,15 @@
                 $(".navigation").removeClass("visible");
             }
         });
+
+
+        var nav = $('#navbar');
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 89 && $(window).width() <= 767) {
+                nav.addClass("nav-fix");
+            } else {
+                nav.removeClass("nav-fix");
+            }
+        });
 });  

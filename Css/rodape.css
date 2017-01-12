@@ -46,6 +46,82 @@ p.contato{
     font-size: 13px;
 }
 
+#menuRodape ul li a {
+    padding: 2px 15px;
+    margin-top: 10px;
+}
+
+
+
+
+/********** RODAPÉ **********/
+
+#menuRodape{
+    vertical-align: middle;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#menuRodape ul {
+    padding-top:30px;
+    margin:0;
+    list-style:none;
+}
+
+#menuRodape ul li { display: inline; }
+
+#menuRodape ul li a {
+    padding: 2px 20px;
+    display: inline-block;
+
+    /* visual do link */
+    color: #333;
+    text-decoration: none;
+    border-left:3px solid #2daa6a;
+}
+
+#menuRodape img{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+}
+
+#direitos{
+    clear: left;
+    padding: 10px;
+    color: white;
+}
+
+#direitos div{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#btn_areaCliente{
+    cursor:pointer;
+}
+
+#btninfor1{
+    cursor:pointer;
+    margin-top: 60px;
+}
+
+#btninfor2{
+    cursor:pointer;
+    margin-top: 59px;
+}
+
+#btninfor3{
+    cursor:pointer;
+    margin-top: 1px;
+}
+
+#btninfor4{
+    cursor:pointer;
+    margin-top: 27px;
+}
+
+
 @media all and (max-width: 1873px){
     .boxInformacao{
         margin: -250px auto 120px;
@@ -63,6 +139,9 @@ p.contato{
         width: 45%;
     }
 
+    #menuRodape ul li a {
+        padding: 2px 15px;
+    }
 }
 
 @media all and (max-width: 989px) {
@@ -71,37 +150,30 @@ p.contato{
     }
 }
 
+@media all and (max-width: 900px) {
+    #menuRodape ul li a {
+        padding: 2px 10px;
+    }
+}
+
+@media all and (max-width: 830px) {
+    #menuRodape ul li a {
+        padding: 2px 7px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #menuRodape ul li a {
+        padding: 2px 5px;
+    }
+
+    .imgrod {
+        margin-right: 1.1%;
+    }
+}
+
 @media all and (max-width: 767px) {
-    div.boxInformacao{
-        width: 60%;
-    }
-}
-
-
-@media all and (max-width: 641px) {
-    div.boxInformacao {
-        width: 70%;
-    }
-}
-
-@media all and (max-width: 550px) {
-    div.boxInformacao {
-        width: 90%;
-    }
-}
-
-@media all and (max-width: 525px) {
-    div.boxInformacao {
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 387px) {
-    div.boxInformacao{
-        margin: -260px auto 120px;
-    }
-
-    h5.contato{
-        font-size: 12px;
+    #rodpe {
+        display: none;
     }
 }

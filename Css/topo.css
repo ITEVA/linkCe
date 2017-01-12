@@ -153,83 +153,6 @@ div#menu {
     margin: auto;
 }
 
-#planosResidenciais {
-    display: block;
-    position: relative;
-    width: 55vw;
-    height: auto;
-    margin: auto;
-}
-
-
-
-/********** RODAPÉ **********/
-
-#menuRodape{
-    vertical-align: middle;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-#menuRodape ul {
-    padding-top:30px;
-    margin:0;
-    list-style:none;
-}
-
-#menuRodape ul li { display: inline; }
-
-#menuRodape ul li a {
-    padding: 2px 20px;
-    display: inline-block;
-
-    /* visual do link */
-    color: #333;
-    text-decoration: none;
-    border-left:3px solid #2daa6a;
-}
-
-#menuRodape img{
-    float: left;
-    display: inline-block;
-    padding: 10px;
-}
-
-#direitos{
-    clear: left;
-    background-color: #00285c;
-    padding: 10px;
-    color: white;
-}
-
-#direitos div{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-#btn_areaCliente{
-    cursor:pointer;
-}
-
-#btninfor1{
-    cursor:pointer;
-    margin-top: 60px;
-}
-
-#btninfor2{
-    cursor:pointer;
-    margin-top: 59px;
-}
-
-#btninfor3{
-    cursor:pointer;
-    margin-top: 1px;
-}
-
-#btninfor4{
-    cursor:pointer;
-    margin-top: 27px;
-}
 
 /*
 
@@ -263,11 +186,19 @@ div#menu {
 */
 
 .container-fluid>.navbar-header {
-    padding-right: 15px;
+    width: 99vw;
 }
 
 .navbar-default .navbar-toggle {
 
+}
+
+.nav-fix{  /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 /********** @MEDIAS **********/

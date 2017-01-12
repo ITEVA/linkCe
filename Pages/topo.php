@@ -15,6 +15,7 @@
         <script src="JS/bootstrap.min.js"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
+        <script type="text/javascript" src="JS/javascript.js"></script>
 
         
         <!-- Latest compiled and minified CSS -->
@@ -31,6 +32,7 @@
         <link rel="stylesheet" href="Css/topo.css">
         <link rel="stylesheet" href="Css/style.css">
         <link rel="stylesheet" href="Css/home.css">
+        <link rel="stylesheet" href="Css/planos.css">
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="JS/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -44,7 +46,7 @@
                 <button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i><spam>ÁREA DO CLIENTE</spam></button>
             </div>
          </div>
-        <nav class="navbar navbar-default" style="margin-bottom:0px;">
+        <nav id="navbar" class="navbar navbar-default" style="margin-bottom:0px;">
             <div class="container-fluid" id="menu">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
