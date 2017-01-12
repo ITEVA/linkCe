@@ -1,7 +1,7 @@
 <h2>Planos Corporativo</h2>
-<div id="planosCorporativo" style="text-align: center;">
+<div id="planosCorporativos" style="text-align: center;">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col6">
             <div class="quadroPlano bgGray quadroG">
                 <div class="verde quadroG">
                     <h2>5 Mega</h2>
@@ -16,7 +16,7 @@
                 <button class="btnPlanos">Assine Já</button>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col6">
             <div class="quadroPlano bgGray quadroG">
                 <div class="verde quadroG">
                     <h2>10 Mega</h2>
@@ -31,10 +31,7 @@
                 <button class="btnPlanos">Assine Já</button>
             </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-6">
+        <div class="col6">
             <div class="quadroPlano bgGray quadroG">
                 <div class="verde quadroG">
                     <h2>20 Mega</h2>
@@ -49,7 +46,7 @@
                 <button class="btnPlanos">Assine Já</button>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col6">
             <div class="quadroPlano bgGray quadroG">
                 <div class="verde quadroG">
                     <h2>30 Mega</h2>
