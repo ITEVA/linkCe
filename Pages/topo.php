@@ -16,6 +16,7 @@
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
         <script type="text/javascript" src="JS/javascript.js"></script>
+        <script type="text/javascript" src="JS/cobertura.js"></script>
 
         
         <!-- Latest compiled and minified CSS -->
@@ -33,6 +34,8 @@
         <link rel="stylesheet" href="Css/style.css">
         <link rel="stylesheet" href="Css/home.css">
         <link rel="stylesheet" href="Css/planos.css">
+        <link rel="stylesheet" href="Css/empresa.css">
+        <link rel="stylesheet" href="Css/cobertura.css">
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="JS/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
