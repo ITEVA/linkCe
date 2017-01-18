@@ -1,0 +1,72 @@
+#cobertura {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.left {
+    position: relative;
+    display: block;
+    float: left;
+    height: 480px;
+    background-color: #00a39b;
+}
+
+.right {
+    position: relative;
+    display: block;
+    height: 480px;
+    float: right;
+    background-color: #352c59;
+}
+
+.left iframe, .right iframe {
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+.col-lg-6 {
+    padding: 0px;
+}
+
+.bairro {
+    color: #fff;
+    height: 480px;
+    /*height: auto;
+    background: red;*/
+}
+
+.bairro h3 {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.bairro h4 {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#cobertura .bairro, #cobertura .mapa {
+    margin: 10px 0px;
+}
+
+.bairro .texto {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 83%;
+}
+
+#cobertura hr {
+    margin-top: 0px;
+    width: 50px;
+    border-color: #fff;
+}
+
+.scrolloff {
+    pointer-events: none;
+}
