@@ -29,23 +29,27 @@
             <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
         </div>
 
+        <!-- Banner 2-->
         <div id="banner1" class="item">
             <div class="row-fluid">
                 <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
-                    <img src="Images/banner/bandaLarga.jpg">
+                    <img src="Images/banner/rede.png">
                 </div>
             </div>
             <div class="row-fluid">
-                <div id="oferta" class="animated fadeInLeftBig txtBanner margemTop">
-                    <img src="Images/banner/oferta.png">
-                </div>
-                <div id="mega25" class="animated fadeInUpBig txtBanner margemTop">
-                    <img src="Images/banner/mega.png">
+                <div id="fibra" class="animated fadeInLeftBig txtBanner margemTop">
+                    <img src="Images/banner/fibra.png">
                 </div>
             </div>
-            <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
+            <div class="row-fluid">
+                <div id="confira" class="animated fadeInUpBig txtBanner margemTop">
+                    <img src="Images/banner/confira.png">
+                </div>
+            </div>
+            <img id="imgBanner1" src="Images/banner2.jpg" alt="Chania" width="100%">
         </div>
 
+        <!-- Banner 3 -->
         <div id="banner1" class="item">
             <div class="row-fluid">
                 <div id="bandaLarga" class="animated fadeInDownBig txtBanner">

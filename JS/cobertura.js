@@ -3,6 +3,11 @@
  */
 
 $(document).ready(function() {
+
+    var item1 = $( "div.i4ewOd-pzNkMb-haAclf" )[ 0 ];
+    alert($( ".iframeMapa" ).contents().find( item1 ).hide());
+
+
     $('.iframeMapa').addClass('scrolloff');
     $('.mapa').on('click', function () {
         $('.iframeMapa').removeClass('scrolloff');

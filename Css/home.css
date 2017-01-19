@@ -105,6 +105,22 @@
     width: 100%;
 }
 
+#fibra {
+    width: 35.4166%;
+    margin-left: 50%;
+    margin-top: 16%;
+}
+
+#fibra img {
+    width: 100%;
+}
+
+#confira {
+    width: 35.4166%;
+    margin-left: 50%;
+    margin-top: 22%;
+}
+
 
 /********** @MEDIAS **********/
 @media all and (max-width: 1400px) {
