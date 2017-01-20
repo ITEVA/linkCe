@@ -3,7 +3,7 @@
     <img id="logoBannerEmpresa" class="animated fadeInUp" src="Images/logoBannerEmpresa.png">
 </div>
 
-<div class="triangle-down" style="border-top-color: #1fa67e"></div>
+<div class="triangle-down" style="border-top-color: #1fa67e; z-index:9999"></div>
 <div id="empresa">
     <h2>A empresa</h2>
     <div id="container" class="row">
