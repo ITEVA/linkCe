@@ -1,0 +1,47 @@
+#bgContatos {
+    width: 100%;
+    background-color: #352c59;
+    background-image: url(../Images/bgIconContato.png);
+}
+
+#containerContato {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#formContato .container-fluid div {
+    margin: 20px;
+}
+
+#containerContato h2 {
+     margin-top: 0px;
+    padding-top: 20px;
+}
+
+#formContato label {
+    color: #00a39b;
+}
+
+#formContato input, #formContato textarea {
+    background-color: transparent;
+    border: 1px solid  #00a39b;
+    color: #fff;
+    border-radius: 1px;
+}
+
+#formContato textarea {
+    resize: none;
+}
+
+#envio {
+    display: block;
+    float: right;
+}
+
+#envio .btn {
+    background-color: #00a39b;
+    border-radius: 1px;
+}
