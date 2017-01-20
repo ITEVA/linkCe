@@ -3,7 +3,7 @@
 .txtBanner {
     position: absolute;
     left: 0;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .margemTop {
@@ -78,51 +78,77 @@
 }
 
 /* Texto do Banner */
+/********** BANNER 1 **********/
 #bandaLarga {
     width: 35.4166%;
     margin-left: 50%;
+    margin-top: 10%;
 }
+#bandaLarga img { width: 100%; }
 
-#bandaLarga img {
-    width: 100%;
-}
+#oferta { width: 17%; margin-left: 50%; }
 
-#oferta {
-    width: 17%;
-    margin-left: 50%;
-}
+#oferta img { width: 100%; }
 
-#oferta img {
-    width: 100%;
-}
+#mega25 { width: 17%; margin-left: 68%; }
 
-#mega25 {
-    width: 17%;
-    margin-left: 68%;
-}
+#mega25 img { width: 100%; }
 
-#mega25 img {
-    width: 100%;
-}
+/********** BANNER 2 **********/
+
+#rede { width: 35.4166%; }
+
+#rede img { width: 100%; }
 
 #fibra {
     width: 35.4166%;
     margin-left: 50%;
-    margin-top: 16%;
+    margin-top: 14%;
 }
 
-#fibra img {
-    width: 100%;
+#fibra img { width: 100%; }
+
+#confira { width: 25%; margin-top: 20.5%; }
+
+#confira img { width: 100%; }
+
+#rede, #fibra, #confira {margin-left: 55%; }
+
+/********** BANNER 3 **********/
+
+/********************/
+.btnBanner {
+    display: block;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 22.3%;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
 }
 
-#confira {
-    width: 35.4166%;
-    margin-left: 50%;
-    margin-top: 22%;
+.btnBanner button {
+    background-color: #342c5a;
+    border-radius: 3px;
+    border: 2px solid #342c5a;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
 }
 
+.btnBanner button:hover {
+    background-color: transparent;
+    color: #342c5a;
+    font-weight: bold;
+}
 
 /********** @MEDIAS **********/
+@media all and (max-width: 1500px) {
+    .btnBanner {
+        margin-left: 55%;
+        margin-top: 25%;
+    }
+}
+
 @media all and (max-width: 1400px) {
     #planosDestaque {
         width: 97vw;
@@ -160,6 +186,13 @@
 @media all and (max-width: 1100px) {
     .quadroG {
         width: 300px;
+    }
+}
+
+@media all and (max-width: 1091px) {
+    .btnBanner button {
+        font-size: 14px;
+        padding: 4px 8px;
     }
 }
 
@@ -201,6 +234,13 @@
     }
 }
 
+@media all and (max-width: 800px) {
+    #rede { margin-top: 6%; }
+    #fibra {margin-top: 12%; }
+    #confira { margin-top: 18.5%; }
+    .btnBanner { margin-top: 23%; }
+}
+
 @media all and (max-width: 750px) {
     #nossoCliente {
         width: 97vw;
@@ -233,26 +273,46 @@
         display: none;
     }
 
+    .txtBanner {
+        right: 0;
+    }
+
+    /** Banner 1 **/
     #bandaLarga {
         width: 80%;
         margin: auto;
-        margin-top: 10%;
-    }
-
-    .txtBanner {
-        right: 0;
+        margin-top: 8%;
     }
 
     #oferta {
         width: 39%;
         margin-left: 10%;
-        margin-top: 30%;
+        margin-top: 28%;
     }
 
     #mega25 {
         width: 38%;
         margin-left: 51%;
-        margin-top: 30%;
+        margin-top: 28%;
+    }
+
+    /** Banner 2 **/
+    #rede {
+        width: 80%;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    #fibra {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 21%;
+    }
+
+    #confira {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 36%;
     }
 
     #txtNossoCliente h1 {
@@ -286,6 +346,11 @@
         width: 70%;
         height: 70px;
     }
+
+    .btnBanner {
+        margin-top: 39%;
+        margin-left: 69%;
+    }
 }
 
 @media all and (max-width: 450px) {
@@ -309,6 +374,30 @@
 
     #planosDestaque .col-lg-4 {
         padding: 0px;
+    }
+
+    /** Banner 2 **/
+    #rede {
+        width: 80%;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    #fibra {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 19%;
+    }
+
+    #confira {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 34%;
+    }
+
+    .btnBanner {
+        margin-top: 44%;
+        margin-left: 10%;
     }
 }
 

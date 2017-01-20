@@ -10,7 +10,7 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Banner  -->
+    <!-- Banner 1 -->
     <div class="carousel-inner" role="listbox">
         <div id="banner1" class="item active">
             <div class="row-fluid">
@@ -29,10 +29,10 @@
             <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
         </div>
 
-        <!-- Banner 2-->
+        <!-- Banner 2 -->
         <div id="banner1" class="item">
             <div class="row-fluid">
-                <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
+                <div id="rede" class="animated fadeInDownBig txtBanner">
                     <img src="Images/banner/rede.png">
                 </div>
             </div>
@@ -46,7 +46,11 @@
                     <img src="Images/banner/confira.png">
                 </div>
             </div>
+            <div class="btnBanner animated fadeIn">
+                <button class="">Assine Já</button>
+            </div>
             <img id="imgBanner1" src="Images/banner2.jpg" alt="Chania" width="100%">
+
         </div>
 
         <!-- Banner 3 -->
@@ -64,13 +68,10 @@
                     <img src="Images/banner/mega.png">
                 </div>
             </div>
-            <img id="imgBanner1" src="Images/banner1.jpg" alt="Chania" width="100%">
+                <img id="imgBanner1" src="Images/banner3.jpg" alt="Chania" width="100%">
+            </div>
         </div>
-
-
-
-    </div>
-    <div class="triangle-down"></div>
+        <div class="triangle-down"></div>
 </div>
 
 <!-- Por que ser nosso cliente -->
