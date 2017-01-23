@@ -1,3 +1,11 @@
+#empresa a{
+    text-decoration: none;
+}
+
+#empresa a:hover{
+    text-decoration: none;
+}
+
 #empresa {
     display: block;
     position: relative;

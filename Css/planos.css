@@ -30,17 +30,6 @@
     position: relative;
 }
 
-.verde {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 97px;
-    background-color: #2fac69;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    margin: auto;
-}
-
 .verde h2 {
     color: #fff;
     padding-top: 10px;
@@ -72,6 +61,7 @@ hr {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
+    border-radius: 5%;
 }
 
 .quadroPlano  h3 {
@@ -97,7 +87,21 @@ hr {
 
 .quadroG{
     width: 403px;
+    background-color: #f8f8f8;
 }
+
+
+.verde {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 97px;
+    background-color: #2fac69;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
 
 .quadroP{
     width: 345px;
@@ -112,6 +116,13 @@ hr {
     }
     #planosCorporativos {
         width: 80%;
+    }
+}
+
+@media all and (max-width: 990px){
+    .quadroPlano {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -154,12 +165,12 @@ hr {
 
 @media all and (max-width: 400px) {
     .row .col4, .row .col6 {
-        width: 230px;
+        width: 315px;
         margin: 0px;
     }
 
     .quadroP, .quadroG {
-        width: 230px;
+        width: 275px;
     }
 
     .verde h2 {
@@ -171,11 +182,6 @@ hr {
         height: 60px;
         margin-top: 20px;
         font-size: 25px;
-    }
-
-    .quadroPlano {
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .quadroPlano  h3 {

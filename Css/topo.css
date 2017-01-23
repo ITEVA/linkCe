@@ -5,20 +5,29 @@
 ::-webkit-scrollbar-track-piece {
     background-color: #999999;
     border-left: 1px solid #CCC;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 0;
+    border-radius: 5px;
+
 }
 
 ::-webkit-scrollbar-thumb:vertical,
 ::-webkit-scrollbar-thumb:horizontal {
     background-color: #666666;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:vertical:hover,
 ::-webkit-scrollbar-thumb:horizontal:hover {
     background-color: #C2C2C2;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 
 nav.navbar{
     border:none;
@@ -83,11 +92,6 @@ div#menu {
     color: #737373;
 }
 
-.navbar-nav {
-    display: inline-block;
-    float: none !important;
-}
-
 .navbar-collapse {
     text-align: center;
 }
@@ -97,9 +101,12 @@ div#menu {
     border: none;
 }
 
-#posmenu {
+.navbar-nav{
+    display: block;
+    width: 1070px;
     position: relative;
-    margin: auto;
+    float: none;
+    margin: 0 auto;
 }
 
 #posmenu li {
@@ -186,7 +193,8 @@ div#menu {
 */
 
 .container-fluid>.navbar-header {
-    width: 99vw;
+    width: 98vw;
+    margin-left: 0;
 }
 
 .navbar-default .navbar-toggle {
@@ -202,19 +210,34 @@ div#menu {
 }
 
 /********** @MEDIAS **********/
-@media all and (max-width: 1061px) {
-    div#logoMenu {
-        width: 95vw;
+@media all and (max-width: 1080px) {
+
+    .navbar-nav{
+        width: 1055px;
     }
 }
 
-@media all and (max-width: 1061px) {
+@media all and (max-width: 1063px) {
     #posmenu li {
         padding-right: 12px;
         padding-left: 12px;
     }
     div#menu {
         font-size: 16px;
+    }
+
+    .navbar-nav {
+        width: 98%;
+    }
+
+    div#logoMenu {
+        width: 95vw;
+    }
+}
+
+@media all and (max-width: 963px){
+    .navbar-nav {
+        width: 100%;
     }
 }
 
@@ -231,9 +254,25 @@ div#menu {
     }
 }
 
+@media all and (max-width: 780px) {
+    .navbar-nav {
+        width: 100%;
+    }
+
+    #posmenu li {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
+
 @media all and (max-width: 767px) {
     #posmenu {
         width: 100%;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        width: 100%;
+        margin: 0;
     }
 }
 

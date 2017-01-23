@@ -151,6 +151,12 @@
         margin-left: 55%;
         margin-top: 25%;
     }
+
+    .quadroG {
+        width: 340px;
+        padding-bottom: 35px;
+    }
+
 }
 
 @media all and (max-width: 1400px) {
@@ -171,8 +177,6 @@
     #imgNossoCliente {
         width: 49%;
     }
-
-
 
     .quadroG {
         width: 340px;

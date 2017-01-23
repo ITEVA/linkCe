@@ -44,7 +44,7 @@
     </head>
     <body>
         <div id="logoMenu">
-            <img src="Images/logoColorida.png" id="logomenu">
+            <a href="home"><img src="Images/logoColorida.png" id="logomenu"></a>
             <div id="areaCliente">
                 <button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i><spam>ÁREA DO CLIENTE</spam></button>
             </div>
@@ -63,15 +63,17 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-                    <ul class="nav navbar-nav" id="posmenu">
-                        <!--<li><a href="#">Área do cliente</a></li>-->
-                        <li><a href="home">INÍCIO</a></li>
-                        <li><a href="aempresa">A EMPRESA</a></li>
-                        <li><a href="planos">PLANOS</a></li>
-                        <li><a href="corporativo">CORPORATIVO</a></li>
-                        <li><a href="cobertura">ÁREA DE COBERTURA</a></li>
-                        <li><a href="contatos">CONTATOS</a></li>
-                    </ul>
+                    <div id="center">
+                        <ul class="nav navbar-nav" id="posmenu">
+                            <!--<li><a href="#">Área do cliente</a></li>-->
+                            <li><a href="home">INÍCIO</a></li>
+                            <li><a href="aempresa">A EMPRESA</a></li>
+                            <li><a href="planos">PLANOS</a></li>
+                            <li><a href="corporativo">CORPORATIVO</a></li>
+                            <li><a href="cobertura">ÁREA DE COBERTURA</a></li>
+                            <li><a href="contatos">CONTATOS</a></li>
+                        </ul>
+                    </div>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
