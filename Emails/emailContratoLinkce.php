@@ -28,13 +28,14 @@ $mensagem2 = $mensagem2 ="<body style='background-color: #d4d4d4;'>
                     ."<p><b>Telefone: </b>".$_POST['telefone']. "&nbsp;&nbsp;&nbsp;&nbsp;<b>Celular: </b>".$_POST['celular']."</p>"
                     ."<p><b>Rua: </b>".$_POST['rua']."</p>"
                     ."<p><b>Bairro: </b>".$_POST['bairro']."&nbsp;&nbsp;&nbsp;&nbsp;<b>Número: </b>".$_POST['numero']."</p>"
-                    ."<p><b>Complemento: </b>".$_POST['complemento']."</p>
+                    ."<p><b>Complemento: </b>".$_POST['complemento']."</p>"
+                    ."<p><b>Data: </b>".date('d/m/Y H:i')."</p>
                     </div></br>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='10.100.10.88:8080/siteConnect'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='10.100.10.88:8080/linkce' target='_blank'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>"; 
 
-sendMail('Solicitação de orçamento',$mensagem2,'contato@connectja.com.br','Connect - Internet Banda Larga', NULL, NULL, NULL,'../Images/logoEmail.gif');
+sendMail('Solicitação de orçamento',$mensagem2,'gisellyazevedo@hotmail.com','Connect - Internet Banda Larga', NULL, NULL, NULL,NULL);
 ?>
