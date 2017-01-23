@@ -1,4 +1,12 @@
+#contatos {
+   display: block;
+   position: relative;
+    height: auto;
+}
+
 #bgContatos {
+    display: block;
+    position: relative;
     width: 100%;
     background-color: #352c59;
     background-image: url(../Images/bgIconContato.png);
@@ -7,9 +15,9 @@
 #containerContato {
     display: block;
     position: relative;
-    width: 50%;
+    width: 960px;
     margin: auto;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 #formContato .container-fluid div {
@@ -17,7 +25,7 @@
 }
 
 #containerContato h2 {
-     margin-top: 0px;
+    margin-top: 0px;
     padding-top: 20px;
 }
 
@@ -44,4 +52,168 @@
 #envio .btn {
     background-color: #00a39b;
     border-radius: 1px;
+}
+
+#containerContato2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+#noteContato {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    float: right;
+    width: 50%;
+    margin-top: -5%;
+    margin-right: 5%;
+}
+
+#noteContato img {
+    display: block;
+    position: relative;
+    float: left;
+    width: 90%;
+    min-width: 675px;
+}
+
+#txtContato {
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    width: 50%;/*  50% */
+    top: 10%;
+}
+
+#txtContato h4{
+    font-size: 44px;
+    color: #00a39b;
+    text-align: left;
+}
+
+#txtContato p {
+    font-size: 20px;
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+#txtContato #textos {
+    width: 400px;/*  41% */
+    float: right;
+}
+
+/********** @MEDIAS **********/
+
+@media all and (max-width: 1300px) {
+    #containerContato {
+        width: 80%;
+    }
+
+    #noteContato img {
+        min-width: auto;
+        width: 100%;
+    }
+
+    #txtContato h4 {
+        font-size: 30px;
+    }
+
+    #txtContato p {
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    #noteContato {
+        width: 55%;
+        margin-right: 0px;
+    }
+
+    #txtContato {
+        width: 45%;
+        margin-left: 6%;
+    }
+
+    #txtContato #textos {
+        width: 322px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #containerContato {
+        width: 95%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #containerContato {
+        width: 100%;
+    }
+
+    #txtContato {
+        display: block;
+        position: relative;
+        width: 100%;
+        float: none;
+        margin: auto;
+        padding: 25px;
+    }
+
+    #txtContato #textos {
+        float: none;
+        margin: auto;
+        width: 350px;
+    }
+
+    #txtContato h4 {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    #txtContato p {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    #noteContato {
+        display: block;
+        width: 90%;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #noteContato {
+        display: none;
+    }
+
+    #txtContato h4 {
+        font-size: 30px;
+    }
+
+    #txtContato p {
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+
+    #txtContato #textos {
+        width: 315px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    #txtContato #textos {
+        width: 100%;
+    }
+
+    #txtContato p {
+        font-size: 16px;
+        text-align: center;
+    }
 }
