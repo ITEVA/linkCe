@@ -56,17 +56,17 @@
         <!-- Banner 3 -->
         <div id="banner1" class="item">
             <div class="row-fluid">
-                <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
-                    <img src="Images/banner/bandaLarga.jpg">
+                <div id="rede" class="animated fadeInLeftBig txtBanner">
+                    <img src="Images/banner/planos.jpg">
                 </div>
             </div>
             <div class="row-fluid">
-                <div id="oferta" class="animated fadeInLeftBig txtBanner margemTop">
-                    <img src="Images/banner/oferta.png">
+                <div id="fibra" class="animated fadeInRightBig txtBanner margemTop">
+                    <img src="Images/banner/65preco.png">
                 </div>
-                <div id="mega25" class="animated fadeInUpBig txtBanner margemTop">
-                    <img src="Images/banner/mega.png">
-                </div>
+            </div>
+            <div id="btnBanner3" class="btnBanner animated fadeIn">
+                <button class="">Assine Já</button>
             </div>
                 <img id="imgBanner1" src="Images/banner3.jpg" alt="Chania" width="100%">
             </div>

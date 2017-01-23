@@ -116,6 +116,10 @@
 
 /********** BANNER 3 **********/
 
+#btnBanner3 {
+    margin-left: 55%;
+}
+
 /********************/
 .btnBanner {
     display: block;
@@ -350,6 +354,11 @@
     .btnBanner {
         margin-top: 39%;
         margin-left: 69%;
+    }
+
+    #btnBanner3 {
+        margin-left: 10%;
+        margin-top: 40%;
     }
 }
 
