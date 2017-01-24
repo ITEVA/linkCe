@@ -35,5 +35,5 @@ $mensagem2 = "<body>
 
 $anexo = '../curioPlanos.pdf';
 
-/*sendMail('Planos - CNT', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../img/logoEmail.jpg');*/
-sendMail('Planos - CNT', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, NULL, NULL);
+/*sendMail('Planos - CNT', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/logoEmail.jpg');*/
+sendMail('Planos - LinkCE', $mensagem2, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/logoEmail.png');

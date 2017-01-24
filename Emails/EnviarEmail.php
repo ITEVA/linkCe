@@ -9,18 +9,18 @@
         $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
         
         /* Protocolo da conexão */
-        //$mail->SMTPSecure = "ssl";
+        $mail->SMTPSecure = "ssl";
 
-        $mail->Host = 'connectja.com.br'; //Servidor de envio
-        $mail->Port = 25 ; //Porta de envio
-        $mail->Username = 'site@connectja.com.br'; //email para smtp autenticado
-        $mail->Password = 'connectja123'; //seleciona a porta de envio
+        $mail->Host = 'smtp.gmail.com'; //Servidor de envio
+        $mail->Port = 587 ; //Porta de envio
+        $mail->Username = 'm.giselly.r.a@gmail.com'; //email para smtp autenticado
+        $mail->Password = 'Pokemon01@'; //seleciona a porta de envio
 
-        $mail->From = 'site@connectja.com.br'; //remetente
-        $mail->FromName = 'Connect - Internet Banda Larga'; //nome remetente
+        $mail->From = 'm.giselly.r.a@gmail.com'; //remetente
+        $mail->FromName = 'LinkCE'; //nome remetente
 
         /* Enviar imagem */
-        $mail->AddEmbeddedImage($logo, 'connect');
+        $mail->AddEmbeddedImage($logo, 'linkce');
         
         if($reply != NULL){
             $mail->AddReplyTo($reply,$replyNome);
@@ -41,4 +41,6 @@
             return false;
         }
     }
+    var_dump($mensagem);
+include_once('emailContratoCliente.php');
 ?> 

@@ -37,5 +37,5 @@ $mensagem2 = $mensagem2 ="<body style='background-color: #d4d4d4;'>
                 </div>
             </body>"; 
 
-sendMail('Solicitação de orçamento',$mensagem2,'gisellyazevedo@hotmail.com','Connect - Internet Banda Larga', NULL, NULL, NULL,NULL);
+sendMail('Solicitação de orçamento',$mensagem2,'gisellyazevedo@hotmail.com','LinkCE', NULL, NULL, NULL,NULL);
 ?>

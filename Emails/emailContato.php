@@ -14,7 +14,7 @@ require_once('../Classes/mail/class.smtp.php');
 $mensagem2 ="<body style='background-color: #d4d4d4;'>
                 <div style='display: block; position:absolute; max-width: 60%; width: auto;  min-height: 502px; border: 2px solid #2c3f70; border-bottom: 25px solid #2c3f70; background-color: #fff; padding: 1.5%;'>
                     <div style='display: block; position: relative; float: left; max-width: 60%; width: auto; height: 60px; left: 0.5%; top: 1%;'>
-                        <img src='cid:connect' style='width: 180px; height: 60px;'/>
+                        <img src='cid:linkce' style='width: 180px; height: 60px;'/>
                     </div>
 
                     <div style='display: block; position: absolute; font-size: 14pt; top: 120px; text-align: left;'>
@@ -31,5 +31,5 @@ $mensagem2 ="<body style='background-color: #d4d4d4;'>
                 </div>
             </body>"; 
 
-sendMail('Fale Conosco - Site Connect',$mensagem2,'contato@connectja.com.br','Connect - Internet Banda Larga', NULL, NULL, NULL, '../Images/logoEmail.gif');
+sendMail('Fale Conosco - Site LinkCe',$mensagem2,'giselly@hotmail.com','LinkCE', NULL, NULL, NULL, '../Images/logoEmail.png');
 ?>

@@ -18,6 +18,7 @@
         <script type="text/javascript" src="JS/javascript.js"></script>
         <script type="text/javascript" src="JS/cobertura.js"></script>
         <script type="text/javascript" src="JS/contrato.js"></script>
+        <script type="text/javascript" src="JS/contato.js"></script>
 
         
         <!-- Latest compiled and minified CSS -->
