@@ -6,10 +6,11 @@
             <form id="formContato" method="post">
                 <div class="container-fluid">
 
-                    <div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert">
+                    <div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert" style="background-color: #00a39b; color: #fff; border-color: #00a39b;">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <strong>Email enviado com sucesso!</strong>
                     </div>
+
                     <div id="divEmailSucesso" class="container-fluid col-lg-12 form-group"><label id="lbEmailSucesso" class="control-label"></label></div>
                     <div class="form-group">
                         <label class="control-label">*Nome</label>
@@ -24,7 +25,7 @@
                     <div class="form-group">
                         <label class="control-label">*Mensagem</label>
                         <textarea class="form-control" rows="7" type="text" placeholder="Mensagem" id="mensagem" name="mensagem" required></textarea>
-                    </div>SS
+                    </div>
 
                     <div id="envio" class="form-group">
                         <input class="btn btn-default" type="submit" text="Enviar" name="enviar" value="Enviar"/>

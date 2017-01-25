@@ -7,9 +7,8 @@ $(document).ready(function(){
             data: {nome:$('#nome').val(), email:$('#email').val(),
                 mensagem:$('#mensagem').val()}
         }).done(function() {
+            alert(data);
         });
-
-
         $('div#emailSucesso').css("display", "block");
 
         $("#formContato").each(function(){
@@ -19,7 +18,7 @@ $(document).ready(function(){
         setTimeout(
             function(){
                 location.reload();
-            },3000
+            },4000
         );
         return false;
     });

@@ -106,6 +106,10 @@
     float: right;
 }
 
+div#emailSucesso {
+    display: none;
+}
+
 /********** @MEDIAS **********/
 
 @media all and (max-width: 1300px) {
