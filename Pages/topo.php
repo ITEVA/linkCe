@@ -16,6 +16,7 @@
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
+        <script type="text/javascript" src="JS/toastr.min.js"></script>
         <script type="text/javascript" src="JS/javascript.js"></script>
         <script type="text/javascript" src="JS/cobertura.js"></script>
         <script type="text/javascript" src="JS/contato.js"></script>
@@ -33,6 +34,7 @@
         <link rel="stylesheet" href="Css/slider.css">
         <link rel="stylesheet" href="Css/animate.css">
         <link rel="stylesheet" href="Font/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Css/toastr.min.css">
 
         <link rel="stylesheet" href="Css/topo.css">
         <link rel="stylesheet" href="Css/style.css">

@@ -32,4 +32,5 @@
                 nav.removeClass("nav-fix");
             }
         });
+
 });  

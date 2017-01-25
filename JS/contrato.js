@@ -1,52 +1,45 @@
 $(document).ready(function(){  
     $('div#emailSucesso').css("display", "none");
-    $('div#aguarde').css("display", "none");
+    $('div#aguarde').hide();
     $('div#erro').css("display", "none");
-    $("#telefone").mask("(99) 9999-9999");
+    $("#telefone").mask("(99) 99999-9999");
     $("#celular").mask("(99) 99999-9999");
     
-    var r1, r2;
-    
+    var r1;
+
     $("#formContrato").submit(function(e){
+        toastr.options.closeButton = true;
+        toastr.info('O email está sendo encaminhado...', {timeOut: 3000});
         e.preventDefault();
-        $('div#aguarde').css("display", "block");
-        
+        setTimeout(
+            function(){
+                toastr.warning('Aguarde uma confirmação', {timeOut: 3000});
+            }, 4000);
+
+
         $.ajax({
         method: "POST",
-        async: false,
-        url: "Emails/emailContratoLinkce.php",
-        data: {nome:$('#nome').val(), email:$('#email').val(),
-              celular:$('#celular').val(), telefone:$('#telefone').val(),
-              rua:$('#rua').val(), bairro:$('#sel1').val(),
-              numero:$('#numero').val(), complemento:$('#complemento').val()}
-        
-        }).done(function(result) {
-            r2 = result;
-        });
-        
-        $.ajax({
-        method: "POST",
-        async: false,
-        url: "Emails/emailContratoCliente.php",
-        data: {nome:$('#nome').val(), email:$('#email').val()}
+        url: "Emails/contrato.php",
+         data: {nome:$('#nome').val(), email:$('#email').val(),
+                celular:$('#celular').val(), telefone:$('#telefone').val(),
+                rua:$('#rua').val(), bairro:$('#sel1').val(),
+                numero:$('#numero').val(), complemento:$('#complemento').val()}
         
         }).done(function(result) {
             r1 = result;
+            if(r1 == 1){
+                toastr.options.closeButton = true;
+                toastr.success('O email foi enviado com sucesso!', '', {timeOut: 3000});
+                $("#formContrato").each(function(){
+                    this.reset();
+                });
+            } else {
+                toastr.options.closeButton = true;
+                toastr.error('Erro ao enviar email!', 'Tente novamente.', {timeOut: 3000});
+            }
         });
 
-        if(r1 == 1 && r2 == 1){
-            $('div#aguarde').css("display", "none");
-            $('div#emailSucesso').css("display", "block");
-        } else {
-            $('div#aguarde').css("display", "none");
-            $('div#erro').css("display", "block");            
-        }
 
-        setTimeout(
-            function(){ 
-                location.reload();
-            },2000
-        ); 
 
         return false;
     });

@@ -9,14 +9,14 @@
         $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
         
         /* Protocolo da conexão */
-        $mail->SMTPSecure = "ssl";
+        $mail->SMTPSecure = "tls";
 
-        $mail->Host = 'smtp.gmail.com'; //Servidor de envio
+        $mail->Host = 'smtp.live.com'; //Servidor de envio
         $mail->Port = 587 ; //Porta de envio
-        $mail->Username = 'm.giselly.r.a@gmail.com'; //email para smtp autenticado
-        $mail->Password = 'Pokemon01@'; //seleciona a porta de envio
+        $mail->Username = 'gisellyazevedo@hotmail.com'; //email para smtp autenticado
+        $mail->Password = 'gloriete12345'; //
 
-        $mail->From = 'm.giselly.r.a@gmail.com'; //remetente
+        $mail->From = 'gisellyazevedo@hotmail.com'; //remetente
         $mail->FromName = 'LinkCE'; //nome remetente
 
         /* Enviar imagem */
@@ -34,13 +34,12 @@
         $mail->Body = $mensagem; //mensagem
         $mail->AddAddress($destino,$nomeDestino); //email e nome do destino
 
-        if($mail->Send()){
-            return true;
-        }else {
-            exit();
-            return false;
+        $enviado = $mail->Send();
+
+        if (!$enviado) {
+            return 0;
+        } else {
+            return 1;
         }
     }
-    var_dump($mensagem);
-include_once('emailContratoCliente.php');
 ?> 
