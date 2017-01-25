@@ -110,7 +110,22 @@ div#emailSucesso {
     display: none;
 }
 
+#mapaContato{
+    width: calc(100% - 35.7%);
+    height: calc(100% - 20%);
+    position: absolute;
+    left: calc(100% - 87.3%);
+    top: calc(100% - 93.5%);
+}
+
 /********** @MEDIAS **********/
+
+@media all and (max-width: 1510px){
+    #mapaContato {
+        width: 485px;
+        left: 93px;
+    }
+}
 
 @media all and (max-width: 1300px) {
     #containerContato {
@@ -129,6 +144,12 @@ div#emailSucesso {
     #txtContato p {
         font-size: 18px;
         padding-bottom: 0px;
+    }
+
+    #mapaContato{
+        width: calc(100% - 28.7%);
+        height: calc(100% - 20.5%);
+        left: calc(100% - 86%);
     }
 }
 
@@ -191,11 +212,77 @@ div#emailSucesso {
         float: none;
         margin: auto;
     }
+
+    #mapaContato {
+        width: calc(100% - 28.7%);
+        height: 317px;
+        left: calc(100% - 85.7%);
+        top: 26px;
+    }
+}
+
+@media all and (max-width: 780px) {
+    #mapaContato {
+        height: 309px;
+        left: calc(100% - 85.8%);
+    }
+}
+
+@media all and (max-width: 760px) {
+    #mapaContato {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 740px) {
+    #mapaContato {
+        height: 288px;
+        left: calc(100% - 85.6%);
+    }
+}
+
+@media all and (max-width: 720px) {
+    #mapaContato {
+        height: 282px;
+        left: calc(100% - 86%);
+    }
+}
+
+@media all and (max-width: 700px) {
+    #mapaContato {
+        height: 274px;
+        left: calc(100% - 85.8%);
+    }
+}
+
+@media all and (max-width: 680px) {
+    #mapaContato {
+        height: 269px;
+        left: calc(100% - 85.8%);
+        top: 22px;
+    }
+}
+
+@media all and (max-width: 660px) {
+    #mapaContato {
+        height: 259px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #mapaContato {
+        height: 247px;
+    }
 }
 
 @media all and (max-width: 600px) {
-    #noteContato {
+    #noteContato > img{
         display: none;
+    }
+
+    #noteContato{
+        width: 100%;
+        margin: 0;
     }
 
     #txtContato h4 {
@@ -209,6 +296,13 @@ div#emailSucesso {
 
     #txtContato #textos {
         width: 315px;
+    }
+
+    #mapaContato {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
     }
 }
 
