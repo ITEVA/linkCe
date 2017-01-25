@@ -75,13 +75,17 @@ div#emailSucesso {
 }
 
 .modal-dialog {
-    margin: 10% auto;
+    margin: 15% auto;
 }
 
 @media all and (max-width: 767px){
     div.panel-default {
         width: 80%;
     }
+
+    .modal-dialog {
+         margin: 25% auto;
+     }
 }
 
 @media all and (max-width: 650px){
