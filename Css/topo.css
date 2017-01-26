@@ -125,7 +125,13 @@ div#menu {
     color: #ffffff;
 }
 
+.ativo {
+    background-color: #00a39b;
+}
 
+.navbar-default .navbar-nav>li.ativo>a {
+    color: #ffffff;!important;
+}
 
 /* Planos */
 

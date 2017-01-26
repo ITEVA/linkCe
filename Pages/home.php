@@ -80,7 +80,7 @@
     <div id="txtNossoCliente">
         <h1>POR QUE SER NOSSO CLIENTE?</h1>
 
-        <p>Com a tecnologia de rádio digital, oferecemos serviços de qualidade com agilidade e baixo custo.</p>
+        <p>Com a tecnologia de fibra óptica, oferecemos serviços de qualidade com agilidade e baixo custo.</p>
         <p>Oferecemos a empresas de pequeno, médio e grande porte, soluções de TI com atendimento especializado e dedicado.</p>
         <p>Trabalhamos para manter sempre um serviço estável e contíno com 100% de conexão em up-time, o que garante mais estabilidade e velocidade ao nosso serviço de banda.</p>
     </div>
@@ -111,7 +111,7 @@
                 <h3>R$ 75,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
-                <a data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
+                <a class="assinatura" tipoPlano="residencial" plano="15" data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
             </div>
         </div>
 
@@ -126,7 +126,7 @@
                 <h3>R$ 99,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
-                <a data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
+                <a class="assinatura" tipoPlano="residencial" plano="35" data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
             </div>
         </div>
 
@@ -141,7 +141,7 @@
                 <h3>R$ 139,90</h3>
                 <hr>
                 <h3>Consulte Instalação</h3>
-                <a data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
+                <a class="assinatura" tipoPlano="residencial" plano="50" data-toggle="modal" data-target="#contrato" href=""><button class="btnPlanos">Assine Já</button></a>
             </div>
         </div>
     </div>
@@ -158,20 +158,22 @@
                 <h4 class="modal-title" id="myModalLabel">Forneça seus dados para receber um orçamento</h4>
             </div>
             <form id="formContrato" method="post">
+                <input id="plano" type="hidden" value="">
+                <input id="tipoPlano" type="hidden" value="">
                 <div class="modal-body">
                     <ul class="row">
                         <li class="col-xs-6">
                             <input class="form-control" id="nome" onkeypress="return letras()" type="text"
-                                   placeholder="Nome Completo" name="nome" required="required"/>
+                                   placeholder="Nome Completo *" name="nome" required="required"/>
                         </li>
 
                         <li class="col-xs-6">
-                            <input class="form-control" id="email" type="email" placeholder="E-mail" name="email"
+                            <input class="form-control" id="email" type="email" placeholder="E-mail *" name="email"
                                    required="required"/>
                         </li>
 
                         <li class="col-xs-6">
-                            <input class="form-control" id="celular" type="tel" placeholder="Celular" name="celular"
+                            <input class="form-control" id="celular" type="tel" placeholder="Celular *" name="celular"
                                    required="required"/>
                         </li>
 
@@ -181,13 +183,13 @@
                         </li>
 
                         <li class="col-xs-6">
-                            <input class="form-control" id="rua" type="text" onkeypress="return letras()"
-                                   placeholder="Rua" name="rua" required="required"/>
+                            <input class="form-control" id="rua" type="text"
+                                   placeholder="Rua" name="rua" />
                         </li>
 
                         <li class="col-xs-6">
                             <select required id="sel1" class="form-control" name="bairro">
-                                <option value="">Selecione um local</option>
+                                <option value="">Selecione um local *</option>
                                 <option id="lc" value="Maracanaú">Maracanaú</option>
                                 <option value="Maranguape">Maranguape</option>
                                 <option value="Pacatuba">Pacatuba</option>
@@ -197,12 +199,12 @@
 
                         <li class="col-xs-6">
                             <input class="form-control numero" onkeypress="return numeros()" id="numero" type="text"
-                                   placeholder="Número" name="numero" required="required"/>
+                                   placeholder="Número" name="numero" />
                         </li>
 
                         <li class="col-xs-6">
-                            <input class="form-control complemento" type="text" placeholder="Bairro"
-                                   id="complemento" name="complemento"/>
+                            <input class="form-control complemento" type="text" placeholder="Bairro *"
+                                   id="complemento" name="complemento" required="required"/>
                         </li>
 
                     </ul>

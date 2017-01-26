@@ -54,7 +54,7 @@
         <div id="logoMenu">
             <a href="home"><img src="Images/logoColorida.png" id="logomenu"></a>
             <div id="areaCliente">
-                <button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i><spam>ÁREA DO CLIENTE</spam></button>
+                <a href="http://131.221.224.50:18080/sac/open.do?action=open&sys=SAC" target="_blank"><button type="button" class="btn btn-default"><i class="fa fa-user-o" aria-hidden="true""></i><spam>ÁREA DO CLIENTE</spam></button></a>
             </div>
          </div>
         <nav id="navbar" class="navbar navbar-default" style="margin-bottom:0px;">
@@ -74,12 +74,12 @@
                     <div id="center">
                         <ul class="nav navbar-nav" id="posmenu">
                             <!--<li><a href="#">Área do cliente</a></li>-->
-                            <li><a href="home">INÍCIO</a></li>
-                            <li><a href="aempresa">A EMPRESA</a></li>
-                            <li><a href="planos">PLANOS</a></li>
-                            <li><a href="corporativo">CORPORATIVO</a></li>
-                            <li><a href="cobertura">ÁREA DE COBERTURA</a></li>
-                            <li><a href="contatos">CONTATOS</a></li>
+                            <li class="<?php echo ($url[0] == 'home') ? 'ativo' : ''?>"><a href="home">INÍCIO</a></li>
+                            <li class="<?php echo ($url[0] == 'aempresa') ? 'ativo' : ''?>"><a href="aempresa">A EMPRESA</a></li>
+                            <li class="<?php echo ($url[0] == 'planos') ? 'ativo' : ''?>"><a href="planos">PLANOS</a></li>
+                            <li class="<?php echo ($url[0] == 'corporativo') ? 'ativo' : ''?>"><a href="corporativo">CORPORATIVO</a></li>
+                            <li class="<?php echo ($url[0] == 'cobertura') ? 'ativo' : ''?>"><a href="cobertura">ÁREA DE COBERTURA</a></li>
+                            <li class="<?php echo ($url[0] == 'contatos') ? 'ativo' : ''?>"><a href="contatos">CONTATOS</a></li>
                         </ul>
                     </div>
                 </div><!-- /.navbar-collapse -->
