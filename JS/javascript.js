@@ -33,4 +33,13 @@
             }
         });
 
+        $(".assinatura").click(function() {
+                $("#plano").val($(this).attr("plano"));
+                $("#tipoPlano").val($(this).attr("tipoPlano"));
+        });
+
+        $('#posmenu li').click(function(){
+            $("#posmenu li").removeClass('ativo');
+            $(this).addClass('ativo');
+        });
 });  

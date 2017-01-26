@@ -20,14 +20,15 @@ $(document).ready(function(){
         $.ajax({
         method: "POST",
         url: "Emails/contrato.php",
-         data: {nome:$('#nome').val(), email:$('#email').val(),
-                celular:$('#celular').val(), telefone:$('#telefone').val(),
+         data: {plano:$('#plano').val(),tipoPlano:$('#tipoPlano').val(),nome:$('#nome').val(),
+                email:$('#email').val(),celular:$('#celular').val(), telefone:$('#telefone').val(),
                 rua:$('#rua').val(), bairro:$('#sel1').val(),
                 numero:$('#numero').val(), complemento:$('#complemento').val()}
         
         }).done(function(result) {
             r1 = result;
             if(r1 == 1){
+                alert(r1);
                 toastr.options.closeButton = true;
                 toastr.success('O email foi enviado com sucesso!', '', {timeOut: 3000});
                 $("#formContrato").each(function(){

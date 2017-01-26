@@ -25,7 +25,7 @@ $mensagem = "<body>
                     <div style='display: block; position: absolute; font-size: 14pt; top: 20px; text-align: left;'>"
     ."<p>Olá <b style='color: #3c3c3c;'>".$_POST['nome']."</b>!</p>"
     ."<p>Segue em anexo um arquivo com os planos e preços oferecidos pela LinkCe.</p>"
-    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3015-7051 • (85) 3371-7868 • (85) 3381-0162 | contatos@linkce.com.br</br></p>"
+    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3015-7051 • (85) 3371-7868S | contatos@linkce.com.br</br></p>"
     ."<p>Att.</br>LinkCe.</p>"
     ."</div>"
 
@@ -36,7 +36,15 @@ $mensagem = "<body>
                 </div>
             </body>";
 
-$anexo = '../linkcePlanos.pdf';
+if($_POST['tipoPlano'] == "residencial" || $_POST['tipoPlano'] == "residencial_radio") {
+    $anexo = '../planos_residenciais.pdf';
+} else if ($_POST['tipoPlano'] == "corporativo"){
+    $anexo = '../planos_corporativos.pdf';
+} else {
+    $anexo = NULL;
+}
+
+
 
 $result = sendMail('Planos - LinkCe', $mensagem, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/logoEmail.png');
 if ($result == 1) {
@@ -58,7 +66,8 @@ if ($result == 1) {
                         ."<p><b>Rua: </b>".$_POST['rua']."</p>"
                         ."<p><b>Bairro: </b>".$_POST['bairro']."&nbsp;&nbsp;&nbsp;&nbsp;<b>Número: </b>".$_POST['numero']."</p>"
                         ."<p><b>Complemento: </b>".$_POST['complemento']."</p>"
-                        ."<p><b>Data: </b>".date('d/m/Y H:i')."</p>
+                        ."<p><b>Plano: </b>".$_POST['plano']."&nbsp;MB&nbsp;".$_POST['tipoPlano']."</p>"
+                        ."<p><b>Data: </b>".date('d/m/Y')."</p>
                                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
@@ -67,7 +76,7 @@ if ($result == 1) {
                 </div>
             </body>";
 
-    $result2 = sendMail('Solicitação de orçamento',$mensagem2,'gisellyazevedo@hotmail.com','LinkCE', NULL, NULL, NULL, '../Images/logoEmail.png');
+    $result2 = sendMail('Solicitação de orçamento',$mensagem2,'contatos@linkce.com.br','LinkCE', NULL, NULL, NULL, '../Images/logoEmail.png');
     if($result2 == 1) {
         echo '1';
     } else {

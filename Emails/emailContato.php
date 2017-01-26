@@ -6,6 +6,7 @@ require("EnviarEmail.php");
 /**
 * Inclui classes de envio de email
 */
+require_once('../Classes/mail/PHPMailerAutoload.php');
 require_once('../Classes/mail/class.phpmailer.php');
 require_once('../Classes/mail/class.smtp.php');
 

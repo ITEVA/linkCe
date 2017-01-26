@@ -40,7 +40,7 @@
                 <h4>Maracanaú</h4>
                 <p><b>Rua:</b> Quatorze, 660 - Novo Maracanaú</p>
                 <p><b>Telefones:</b> (85) 3015-7051</p>
-                <p>(85) 3371-7968</p>
+                <p>(85) 3371-7868</p>
                 <p><b>E-mail:</b> contatos@linkce.com.br</p>
             </div>
         </div>
