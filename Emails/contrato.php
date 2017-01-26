@@ -25,7 +25,7 @@ $mensagem = "<body>
                     <div style='display: block; position: absolute; font-size: 14pt; top: 20px; text-align: left;'>"
     ."<p>Olá <b style='color: #3c3c3c;'>".$_POST['nome']."</b>!</p>"
     ."<p>Segue em anexo um arquivo com os planos e preços oferecidos pela LinkCe.</p>"
-    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3015-7051 • (85) 3371-7868S | contatos@linkce.com.br</br></p>"
+    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 3015-7051 • (85) 3371-7868 | contatos@linkce.com.br</br></p>"
     ."<p>Att.</br>LinkCe.</p>"
     ."</div>"
 

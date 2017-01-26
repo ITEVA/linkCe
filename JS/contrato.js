@@ -28,7 +28,6 @@ $(document).ready(function(){
         }).done(function(result) {
             r1 = result;
             if(r1 == 1){
-                alert(r1);
                 toastr.options.closeButton = true;
                 toastr.success('O email foi enviado com sucesso!', '', {timeOut: 3000});
                 $("#formContrato").each(function(){
