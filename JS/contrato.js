@@ -22,8 +22,8 @@ $(document).ready(function(){
         url: "Emails/contrato.php",
          data: {plano:$('#plano').val(),tipoPlano:$('#tipoPlano').val(),nome:$('#nome').val(),
                 email:$('#email').val(),celular:$('#celular').val(), telefone:$('#telefone').val(),
-                rua:$('#rua').val(), bairro:$('#sel1').val(),
-                numero:$('#numero').val(), complemento:$('#complemento').val()}
+                rua:$('#rua').val(), cidade:$('#sel1').val(),
+                numero:$('#numero').val(), bairro:$('#sel2').val()}
         
         }).done(function(result) {
             r1 = result;

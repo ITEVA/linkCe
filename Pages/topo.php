@@ -44,6 +44,7 @@
         <link rel="stylesheet" href="Css/cobertura.css">
         <link rel="stylesheet" href="Css/contrato.css">
         <link rel="stylesheet" href="Css/contatos.css">
+        <link rel="stylesheet" href="Css/erro.css">
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="JS/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

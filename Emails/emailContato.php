@@ -28,7 +28,7 @@ $mensagem ="<body>
                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://iteva.org.br/linkCe/'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://linkce.com.br'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>"; 

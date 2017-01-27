@@ -201,7 +201,7 @@ div#menu {
 */
 
 .container-fluid>.navbar-header {
-    width: 98vw;
+    width: 100%;
     margin-left: 0;
 }
 

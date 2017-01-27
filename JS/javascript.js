@@ -42,4 +42,23 @@
             $("#posmenu li").removeClass('ativo');
             $(this).addClass('ativo');
         });
+
+
+        var cidade;
+        $("#sel1").change(function () {
+
+            $("#sel2").find('option').each(function () {
+                $(this).show();
+            });
+
+            cidade = $("#sel1 option:selected").attr("cidade");
+
+            if(cidade != "nenhuma") {
+                $("#sel2").find('option').each(function () {
+                    if($(this).attr('cidade') != cidade) {
+                        $(this).hide();
+                    }
+                });
+            }
+        });
 });  

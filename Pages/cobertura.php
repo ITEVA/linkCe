@@ -53,7 +53,7 @@
             <h4>Novo Maranguape I</h4>
             <h4>Novo Maranguape II</h4>
             <h4>Outra Banda</h4>
-            <h4>Prque Santa Fé (Parcial)</h4>
+            <h4>Parque Santa Fé (Parcial)</h4>
             <h4>Parque São João</h4>
             <h4>Tangueira (Parcial)</h4>
         </div>

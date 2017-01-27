@@ -30,7 +30,7 @@ $mensagem = "<body>
     ."</div>"
 
     ."<div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <p><a href='http://iteva.org.br/linkCe'>clique aqui para ser redirecionado ao site</a></p>  
+                        <p><a href='http://linkce.com.br'>clique aqui para ser redirecionado ao site</a></p>  
                     </div>
                     
                 </div>
@@ -62,16 +62,16 @@ if ($result == 1) {
                     <div style='display: block; position: relative; width: 480px; font-size: 14pt;  top: 100px; padding: 3px; min-height: 300px; height: auto; overflow-y: auto;'>
                         <p><b>Nome: </b>".$_POST['nome']."</p>"
                         ."<p><b>Email: </b>".$_POST['email']."</p>"
-                        ."<p><b>Telefone: </b>".$_POST['telefone']. "&nbsp;&nbsp;&nbsp;&nbsp;<b>Celular: </b>".$_POST['celular']."</p>"
+                        ."<p><b>Telefone: </b>".$_POST['telefone']. "&nbsp;&nbsp;&nbsp;<b>Celular: </b>".$_POST['celular']."</p>"
                         ."<p><b>Rua: </b>".$_POST['rua']."</p>"
-                        ."<p><b>Bairro: </b>".$_POST['bairro']."&nbsp;&nbsp;&nbsp;&nbsp;<b>Número: </b>".$_POST['numero']."</p>"
-                        ."<p><b>Complemento: </b>".$_POST['complemento']."</p>"
+                        ."<p><b>Cidade: </b>".$_POST['cidade']."&nbsp;&nbsp;&nbsp;&nbsp;<b>Bairro: </b>".$_POST['bairro']."</p>"
+                        ."<p><b>Número: </b>".$_POST['numero']."</p>"
                         ."<p><b>Plano: </b>".$_POST['plano']."&nbsp;MB&nbsp;".$_POST['tipoPlano']."</p>"
                         ."<p><b>Data: </b>".date('d/m/Y')."</p>
                                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://iteva.org.br/linkCe/'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://linkce.com.br'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>";

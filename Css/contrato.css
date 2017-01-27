@@ -24,10 +24,9 @@ div.panel-default > div.panel-heading {
     text-align: center;
 }
 
-select#sel1{
+select#sel1, select#sel2 {
     height: 47px;
     margin-bottom: 15px;
-
 }
 
 input.form-control{

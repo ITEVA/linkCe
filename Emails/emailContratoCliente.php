@@ -21,6 +21,5 @@ $mensagem = "<body>
                 </div>
             </body>";
 
-$anexo = '../curioPlanos.pdf';
 
 $result = sendMail('Planos - LinkCE', $mensagem, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/logoEmail.png');

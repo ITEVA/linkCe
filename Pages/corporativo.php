@@ -105,12 +105,12 @@
                         </li>
 
                         <li class="col-xs-6">
-                            <select required id="sel1" class="form-control" name="bairro">
-                                <option value="">Selecione um local *</option>
-                                <option id="lc" value="Maracanaú">Maracanaú</option>
-                                <option value="Maranguape">Maranguape</option>
-                                <option value="Pacatuba">Pacatuba</option>
-                                <option value="Fortaleza">Fortaleza</option>
+                            <select required id="sel1" class="form-control" name="cidade">
+                                <option cidade="nenhuma" value="">Selecione uma cidade *</option>
+                                <option cidade="maracanau" id="lc" value="Maracanaú">Maracanaú</option>
+                                <option cidade="maranguape" value="Maranguape">Maranguape</option>
+                                <option cidade="pacatuba" value="Pacatuba">Pacatuba</option>
+                                <option cidade="fortaleza" value="Fortaleza">Fortaleza</option>
                             </select>
                         </li>
 
@@ -120,9 +120,61 @@
                         </li>
 
                         <li class="col-xs-6">
+                            <select required id="sel2" class="form-control" name="bairro">
+                                <option value="">Selecione um bairro *</option>
+                                <option cidade="maracanau" id="lc" value="Alto Alegre I">Alto Alegre I (Corporativo)</option>
+                                <option cidade="maracanau" value="Alto Alegre II">Alto Alegre II</option>
+                                <option cidade="maracanau" value="Alto da Mangueira">Alto da Mangueira</option>
+                                <option cidade="maracanau" value="Antônio Justa">Antônio Justa</option>
+                                <option cidade="maracanau" value="Boa Vista">Boa Vista</option>
+                                <option cidade="maracanau" value="Cágado">Cágado</option>
+                                <option cidade="maracanau" value="Coqueiral">Coqueiral</option>
+                                <option cidade="maracanau" value="Centro">Centro</option>
+                                <option cidade="maracanau" value="Cidade Nova">Cidade Nova</option>
+                                <option cidade="maracanau" value="Furna da Onça(Parcial)">Furna da Onça(Parcial)</option>
+                                <option cidade="maracanau" value="Jaçanaú (Parcial)">Jaçanaú (Parcial)</option>
+                                <option cidade="maracanau" value="Jardim Bandeirantes">Jardim Bandeirantes</option>
+                                <option cidade="maracanau" value="Jenipapeiro">Jenipapeiro</option>
+                                <option cidade="maracanau" value="Jereissati">Jereissati</option>
+                                <option cidade="maracanau" value="Luzardo Viana">Luzardo Viana</option>
+                                <option cidade="maracanau" value="Mucunã">Mucunã</option>
+                                <option cidade="maracanau" value="Novo Maracanaú">Novo Maracanaú</option>
+                                <option cidade="maracanau" value="Novo Oriente (Parcial)">Novo Oriente (Parcial)</option>
+                                <option cidade="maracanau" value="Pajuçara">Pajuçara</option>
+                                <option cidade="maracanau" value="Pau-Serrado">Pau-Serrado</option>
+                                <option cidade="maracanau" value="Piratininga">Piratininga</option>
+                                <option cidade="maracanau" value="Santo Sátiro">Santo Sátiro</option>
+                                <option cidade="maracanau" value="Siqueira">Siqueira</option>
+                                <option cidade="maracanau" value="Timbó">Timbó</option>
+                                <option cidade="maranguape" value="Aldeoma">Aldeoma</option>
+                                <option cidade="maranguape" value="Centro (Parcial)">Centro (Parcial)</option>
+                                <option cidade="maranguape" value="Cônego Raimundo Pinto">Cônego Raimundo Pinto</option>
+                                <option cidade="maranguape" value="Novo Maranguape ">Novo Maranguape I</option>
+                                <option cidade="maranguape" value="Novo Maranguape II">Novo Maranguape II</option>
+                                <option cidade="maranguape" value="Outra Banda">Outra Banda</option>
+                                <option cidade="maranguape" value="Parque Santa Fé (Parcial)">Parque Santa Fé (Parcial)</option>
+                                <option cidade="maranguape" value="Parque São João">Parque São João</option>
+                                <option cidade="maranguape" value="Tangueira (Parcial)">Tangueira (Parcial)</option>
+                                <option cidade="pacatuba" value="Pavuna">Pavuna</option>
+                                <option cidade="pacatuba" value="Pacatuba Sede">Pacatuba Sede</option>
+                                <option cidade="pacatuba" value="Monguba">Monguba</option>
+                                <option cidade="pacatuba" value="Senador Carlos Jereissati">Senador Carlos Jereissati</option>
+                                <option cidade="pacatuba" value="Jereissati III">Jereissati III</option>
+                                <option cidade="pacatuba" value="Vila das Flores">Vila das Flores</option>
+                                <option cidade="pacatuba" value="Alto São João">Alto São João</option>
+                                <option cidade="fortaleza" value="Planalto Cidade Nova">Planalto Cidade Nova</option>
+                                <option cidade="fortaleza" value="Planalto Ayrton Senna<">Planalto Ayrton Senna</option>
+                                <option cidade="fortaleza" value="Mondubim">Mondubim</option>
+                                <option cidade="fortaleza" value="Parque Santa Rosa">Parque Santa Rosa</option>
+                                <option cidade="fortaleza" value="Parque Presidente Vargas">Parque Presidente Vargas</option>
+                                <option cidade="fortaleza" value="Conjunto Esperança">Conjunto Esperança</option>
+                            </select>
+                        </li>
+
+                        <!--<li class="col-xs-6">
                             <input class="form-control complemento" type="text" placeholder="Bairro *"
                                    id="complemento" name="complemento" required="required"/>
-                        </li>
+                        </li>-->
 
                     </ul>
 
